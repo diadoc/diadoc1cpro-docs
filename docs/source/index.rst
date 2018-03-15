@@ -1,20 +1,28 @@
-.. diadoc1cpro-docs documentation master file, created by
-   sphinx-quickstart on Fri Feb 16 13:32:44 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-Welcome to diadoc1cpro-docs's documentation!
-============================================
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
+Модуль DiadocPro1С
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Модуль предназначен для отправки и просмотра электронных документов, передаваемых через систему электронного документооборота Диадок.
+
+Модуль Диадок позволяет компаниям мгновенно отправлять любые внешние и внутренние документы своим клиентам, поставщикам, партнерам, удаленным подразделениям прямо из 1С.
+
+Все электронные документы в сервисе подписаны электронной подписью и обладают юридической силой.
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Описание процессов
+
+   Работа подключаемого модуля <Work_PM>
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Процедуры и функции
+
+  Функции подключаемого модуля <Functions_PM>
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Объекты модуля
+
+  Основные объекты <Main_Objects>
+  Вспомогательные структуры <Support_Objects>
