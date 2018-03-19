@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'diadoc1cpro-docs'
+project = u'Диадок 1С'
 copyright = '2018, Diadoc'
 author = 'Diadoc'
 
