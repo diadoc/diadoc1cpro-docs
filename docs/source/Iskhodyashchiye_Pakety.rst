@@ -12,3 +12,4 @@
   ПодготовитьПакет <Podgotovit'Paket>
   ПодготовитьЭлектронныйДокумент <Podgotovit'ElektronnyyDokument>
   ПослеПодготовкиПакета <PoslePodgotovkiPaketa>
+  ПослеОтправкиПакета <Posle_Otpravki_Paketa>
