@@ -6,10 +6,10 @@
   :name: Исходящие пакеты
   :maxdepth: 0
 
-  ПолучитьТаблицуИспользуемыхПакетов <Poluchit'TablitsuIspol'zuyemykhPaketov>
-  ПолучитьТаблицуИспользуемыхВидовДокументов <Poluchit'TablitsuIspol'zuyemykhVidovDokumentov>
-  Получить текст запроса для списка пакетов на отправку по массиву видов пакетов <Poluchit'TekstZaprosaDlyaSpiskaPaketovNaOtpravkuPoMassivuVidovPaketov>
-  ПодготовитьПакет <Podgotovit'Paket>
-  ПодготовитьЭлектронныйДокумент <Podgotovit'ElektronnyyDokument>
-  ПослеПодготовкиПакета <PoslePodgotovkiPaketa>
-  ПослеОтправкиПакета <Posle_Otpravki_Paketa>
+  ПолучитьТаблицуИспользуемыхПакетов <func/pm/Poluchit'TablitsuIspol'zuyemykhPaketov>
+  ПолучитьТаблицуИспользуемыхВидовДокументов <func/pm/Poluchit'TablitsuIspol'zuyemykhVidovDokumentov>
+  ПолучитьТекстЗапросаДляСпискаПакетовНаОтправкуПоМассивуВидовПакетов <func/pm/Poluchit'TekstZaprosaDlyaSpiskaPaketovNaOtpravkuPoMassivuVidovPaketov>
+  ПодготовитьПакет <func/pm/Podgotovit'Paket>
+  ПодготовитьЭлектронныйДокумент <func/pm/Podgotovit'ElektronnyyDokument>
+  ПослеПодготовкиПакета <func/pm/PoslePodgotovkiPaketa>
+  ПослеОтправкиПакета <func/pm/Posle_Otpravki_Paketa>

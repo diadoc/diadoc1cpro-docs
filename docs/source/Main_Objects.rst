@@ -5,4 +5,4 @@
 .. toctree::
   :maxdepth: 1
 
-  Пакет <Paket>
+  Пакет <objects/Paket>
