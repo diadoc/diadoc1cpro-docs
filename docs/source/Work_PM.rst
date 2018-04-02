@@ -72,4 +72,4 @@
   Как обработать входящий пакет документов <proc/pm/Obrabotka_Vkhodyashchikh_Paketov>
   Регламентное задание <proc/pm/Reglamentnoye_Zadaniye>
   Как доработать таблицу списка документов <proc/pm/Dorabotka_Spiska_Dokumentov>
-  Как добавить кноки в действия <proc/pm/Dobavleniye_Knopok>
+  Как добавить кнопки в действия <proc/pm/Dobavleniye_Knopok>
