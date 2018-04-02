@@ -5,5 +5,5 @@
 .. toctree::
   :maxdepth: 1
 
-  ВидПакетаРазвернутый <VidPaketaRazvernutyy>
-  Типы документов <Tipy_Dokumentov>
+  ВидПакетаРазвернутый <objects/VidPaketaRazvernutyy>
+  Типы документов <objects/Tipy_Dokumentov>
