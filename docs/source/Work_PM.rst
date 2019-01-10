@@ -61,11 +61,12 @@
 
 .. toctree::
   :name: ПМ
-  :maxdepth: 1
+  :maxdepth: 2
 
-  Как подготовить пакет документов для отправки <proc/pm/Podgotovka_Paketa_Dlya_Otpravki>
-  Дополнительная обработка исходящих пакетов <proc/pm/Dop_Obrabotka_Iskhodyashchikh_Paketov>
-  Как обработать входящий пакет документов <proc/pm/Obrabotka_Vkhodyashchikh_Paketov>
+  Исходящие: как подготовить пакет документов для отправки <proc/pm/Podgotovka_Paketa_Dlya_Otpravki>
+  Исходящие: дополнительная обработка исходящих пакетов <proc/pm/Dop_Obrabotka_Iskhodyashchikh_Paketov>
+  Входящие: как обработать входящий пакет документов <proc/pm/Obrabotka_Vkhodyashchikh_Paketov>
+  Форма модуля: как доработать таблицу списка документов <proc/pm/Dorabotka_Spiska_Dokumentov>
+  Форма модуля: Как добавить кнопки в действия <proc/pm/Dobavleniye_Knopok>
   Регламентное задание <proc/pm/Reglamentnoye_Zadaniye>
-  Как доработать таблицу списка документов <proc/pm/Dorabotka_Spiska_Dokumentov>
-  Как добавить кнопки в действия <proc/pm/Dobavleniye_Knopok>
+  Дополнительные возможности <proc/pm/Dopolnitel'nyye_Vozmozhnosti>
