@@ -1,0 +1,9 @@
+
+Структуры для заполнения контента УПД в формате приказа ММВ-7-15/820@
+=====================================================================
+
+.. toctree::
+  :maxdepth: 1
+
+  Utd820SellerContent <objects/Utd820SellerContent>
+  Utd820BuyerContent <objects/Utd820BuyerContent>
