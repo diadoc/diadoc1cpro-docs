@@ -2,8 +2,19 @@
 Структуры для заполнения контента УПД в формате приказа ММВ-7-15/820@
 =====================================================================
 
+.. note::
+
+	Будет поддерживаться в модуле Pro с версии 3.2.0.
+
 .. toctree::
   :maxdepth: 1
 
   Utd820SellerContent <objects/Utd820SellerContent>
   Utd820BuyerContent <objects/Utd820BuyerContent>
+  ContentOperCode <objects/ContentOperCode>
+  BuyerInfoCircumPublicProc <objects/BuyerInfoCircumPublicProc>
+  InfoFundsLiab <objects/InfoFundsLiab>
+  Shipper <objects/Shipper>
+  PaymentDocumentInfo <objects/PaymentDocumentInfo>
+  Table <objects/Table>
+  Item <objects/Item>
