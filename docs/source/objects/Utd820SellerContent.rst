@@ -58,7 +58,7 @@
   **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` - грузополучатель и его адрес [`ГрузПолуч <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239667>`_]
 
 :Signers:
-  **Коллекция** `ExtendedSigner <http://1c-docs.diadoc.ru/ru/latest/ComObjects/ExtendedSigner.html>`_ - подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239668>`_]
+  **Коллекция** :doc:`ExtendedSigner <../../objects/ExtendedSigner>` - подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239668>`_]
 
 :PaymentDocuments:
   **Коллекция** :doc:`PaymentDocumentInfo <../../objects/PaymentDocumentInfo>` - сведения о платежно-расчетном документе [`СвПРД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239669>`_]

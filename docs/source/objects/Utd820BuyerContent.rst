@@ -37,4 +37,4 @@
   :doc:`BuyerInfoCircumPublicProc <../../objects/BuyerInfoCircumPublicProc>` - информация покупателя об обстоятельствах закупок для государственных и муниципальных нужд [`ИнфПокГосЗакКазн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237507>`_]
 
 :Signers:
-  **Коллекция** `ExtendedSigner <http://1c-docs.diadoc.ru/ru/latest/ComObjects/ExtendedSigner.html>`_ - подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237503>`_]
+  **Коллекция** :doc:`ExtendedSigner <../../objects/ExtendedSigner>` - подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237503>`_]
