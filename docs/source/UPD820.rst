@@ -4,17 +4,33 @@
 
 .. note::
 
-	Будет поддерживаться в модуле Pro с версии 3.2.0.
+	Поддержка осуществляется в модуле Pro с версии 3.2.0.
 
 .. toctree::
   :maxdepth: 1
 
   Utd820SellerContent <objects/Utd820SellerContent>
   Utd820BuyerContent <objects/Utd820BuyerContent>
-  ContentOperCode <objects/ContentOperCode>
+	AdditionalInfoId <objects/AdditionalInfoId>
+	AddressInfo <objects/AddressInfo>
   BuyerInfoCircumPublicProc <objects/BuyerInfoCircumPublicProc>
+	ContentOperCode <objects/ContentOperCode>
+	CustomDeclaration <objects/CustomDeclaration>
+	DocumentShipment <objects/DocumentShipment>
+	Employee <objects/Employee>
+	ExtendedOrganizationInfo <objects/ExtendedOrganizationInfo>
+	ExtendedSigner <objects/ExtendedSigner>
+	ExtendedSignerDetails <objects/ExtendedSignerDetails>
   InfoFundsLiab <objects/InfoFundsLiab>
+	Item <objects/Item>
+	ItemTracingInfo <objects/ItemTracingInfo>
+	ItemIdentificationNumber <objects/ItemIdentificationNumber>
+	OtherIssuer <objects/OtherIssuer>
+	PaymentDocumentInfo <objects/PaymentDocumentInfo>
+	SellerInfoCircumPublicProc <objects/SellerInfoCircumPublicProc>
   Shipper <objects/Shipper>
-  PaymentDocumentInfo <objects/PaymentDocumentInfo>
+	StructedAdditionalInfo <objects/StructedAdditionalInfo>
   Table <objects/Table>
-  Item <objects/Item>
+	TransferBase <objects/TransferBase>
+	TransferInfo <objects/TransferInfo>
+	Waybill <objects/Waybill>

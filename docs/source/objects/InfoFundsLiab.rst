@@ -7,7 +7,7 @@ InfoFundsLiab
 .. rubric:: Свойства
 
 :NumberString:
-  **Число (<=6)** - номер строки таблицы информации продавца [`НомСтр <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239638>`_]
+  **Число (6)** - номер строки таблицы информации продавца [`НомСтр <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239638>`_]
 
 :ObjectCodeFAIP:
   **Строка (1-24)** - код объекта капитального строительства федеральной адресной инвестиционной программы [`КодОбъектФАИП <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239639>`_]

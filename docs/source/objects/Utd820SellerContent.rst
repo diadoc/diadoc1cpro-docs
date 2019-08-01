@@ -46,16 +46,16 @@
   **Строка (=1)** - обстоятельства формирования счета-фактуры, применяемого при расчетах по налогу на добавленную стоимость [`ОбстФормСЧФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239661>`_]
 
 :Sellers:
-  **Коллекция** `ExtendedOrganizationInfo <http://1c-docs.diadoc.ru/ru/latest/ComObjects/ExtendedOrganizationInfo.html>`_ - сведения о продавце [`СвПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239664>`_]
+  **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` - сведения о продавце [`СвПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239664>`_]
 
 :Buyers:
-  **Коллекция** `ExtendedOrganizationInfo <http://1c-docs.diadoc.ru/ru/latest/ComObjects/ExtendedOrganizationInfo.html>`_ - сведения о покупателе [`СвПокуп <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239665>`_]
+  **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` - сведения о покупателе [`СвПокуп <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239665>`_]
 
 :Shippers:
   **Коллекция** :doc:`Shipper <../../objects/Shipper>` - сведения о грузоотправителе [`ГрузОт <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239666>`_]
 
 :Consignees:
-  **Коллекция** `ExtendedOrganizationInfo <http://1c-docs.diadoc.ru/ru/latest/ComObjects/ExtendedOrganizationInfo.html>`_ - грузополучатель и его адрес [`ГрузПолуч <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239667>`_]
+  **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` - грузополучатель и его адрес [`ГрузПолуч <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239667>`_]
 
 :Signers:
   **Коллекция** `ExtendedSigner <http://1c-docs.diadoc.ru/ru/latest/ComObjects/ExtendedSigner.html>`_ - подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239668>`_]
@@ -64,22 +64,22 @@
   **Коллекция** :doc:`PaymentDocumentInfo <../../objects/PaymentDocumentInfo>` - сведения о платежно-расчетном документе [`СвПРД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239669>`_]
 
 :AdditionalInfoId:
-  `AdditionalInfoId <http://1c-docs.diadoc.ru/ru/latest/ComObjects/AdditionalInfoId.html>`_ - информационное поле документа [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239671>`_]
+  :doc:`AdditionalInfoId <../../objects/AdditionalInfoId>` - информационное поле документа [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239671>`_]
 
 :Table:
   :doc:`Table <../../objects/Table>` - сведения таблицы счета-фактуры  [`ТаблСчФакт <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239676>`_]
 
 :TransferInfo:
-  TransferInfo820 - сведения о передаче (сдаче) [`СвПер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239677>`_]
+  :doc:`TransferInfo <../../objects/TransferInfo>` - сведения о передаче (сдаче) [`СвПер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239677>`_]
 
 :FactorInfo:
-  `ExtendedOrganizationInfo <http://1c-docs.diadoc.ru/ru/latest/ComObjects/ExtendedOrganizationInfo.html>`_ - сведения о факторе [`СвФактор <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239678>`_]
+  :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` - сведения о факторе [`СвФактор <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239678>`_]
 
 :MainAssignMonetaryClaim:
-  AssignMonetaryClaim - основание уступки денежного требования [`ОснУстДенТреб <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239679>`_]
+  :doc:`TransferBase <../../objects/TransferBase>` - основание уступки денежного требования [`ОснУстДенТреб <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239679>`_]
 
 :SellerInfoCircumPublicProc:
-  SellerInfoCircumPublicProc - информация продавца об обстоятельствах закупок для государственных и муниципальных нужд [`ИнфПродГосЗакКазн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239681>`_]
+  :doc:`SellerInfoCircumPublicProc <../../objects/SellerInfoCircumPublicProc>` - информация продавца об обстоятельствах закупок для государственных и муниципальных нужд [`ИнфПродГосЗакКазн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239681>`_]
 
 :DocumentShipments:
-  **Коллекция DocumentShipment** - реквизиты документа, подтверждающего отгрузку товаров (работ, услуг, имущественных прав) [`ДокПодтвОтгр <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239682>`_]
+  **Коллекция** :doc:`DocumentShipment <../../objects/DocumentShipment>` - реквизиты документа, подтверждающего отгрузку товаров (работ, услуг, имущественных прав) [`ДокПодтвОтгр <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239682>`_]

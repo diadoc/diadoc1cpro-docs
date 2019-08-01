@@ -22,13 +22,13 @@
   **Дата (ДД.ММ.ГГГГ)** - дата принятия товаров (результатов выполненных работ), имущественных прав (подтверждения факта оказания услуг) [`ДатаПрин <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237499>`_]
 
 :Employee:
-  `Employee <http://1c-docs.diadoc.ru/ru/latest/ComObjects/Employee.html>`_ - работник организации покупателя [`РабОргПок <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237500>`_]
+  :doc:`Employee <../../objects/Employee>` - работник организации покупателя [`РабОргПок <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237500>`_]
 
 :OtherIssuer:
-  `OtherIssuer <http://1c-docs.diadoc.ru/ru/latest/ComObjects/OtherIssuer.html>`_ - иное лицо [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237501>`_]
+  :doc:`OtherIssuer <../../objects/OtherIssuer>` - иное лицо [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237501>`_]
 
 :AdditionalInfoId:
-  `AdditionalInfoId <http://1c-docs.diadoc.ru/ru/latest/ComObjects/AdditionalInfoId.html>`_ - информационное поле документа [`ИнфПолФХЖ4 <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237502>`_]
+  :doc:`AdditionalInfoId <../../objects/AdditionalInfoId>` - информационное поле документа [`ИнфПолФХЖ4 <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237502>`_]
 
 :ContentOperCode:
   :doc:`ContentOperCode <../../objects/ContentOperCode>` - код содержания операции [`КодСодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237508>`_]
@@ -37,4 +37,4 @@
   :doc:`BuyerInfoCircumPublicProc <../../objects/BuyerInfoCircumPublicProc>` - информация покупателя об обстоятельствах закупок для государственных и муниципальных нужд [`ИнфПокГосЗакКазн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237507>`_]
 
 :Signers:
-  **Коллекция объектов** `ExtendedSigner <http://1c-docs.diadoc.ru/ru/latest/ComObjects/ExtendedSigner.html>`_ - подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237503>`_]
+  **Коллекция** `ExtendedSigner <http://1c-docs.diadoc.ru/ru/latest/ComObjects/ExtendedSigner.html>`_ - подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237503>`_]

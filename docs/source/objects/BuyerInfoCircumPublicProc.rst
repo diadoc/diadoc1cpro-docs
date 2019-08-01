@@ -46,4 +46,4 @@ BuyerInfoCircumPublicProc
   **Строка (=1)** - вид платежа [`ВидПлат <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239631>`_]
 
 :InfoFundsLiab:
-  :doc:`InfoFundsLiab <../../objects/InfoFundsLiab>` - информация для сведений о денежном обязательстве [`ИнфСведДенОбяз <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239632>`_]
+  **Коллекция** :doc:`InfoFundsLiab <../../objects/InfoFundsLiab>` - информация для сведений о денежном обязательстве [`ИнфСведДенОбяз <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239632>`_]
