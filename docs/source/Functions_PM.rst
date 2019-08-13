@@ -44,6 +44,9 @@
   НажатиеДополнительнойКнопки <func/pm/Nazhatiye_Dopolnitel'noy_Knopki>
   ПолучитьНастройкиДополнительныхКолонокСпискаДокументов <func/pm/Poluchit'_Nastroyki_Dopolnitel'nykh_Kolonok_Spiska_Dokumentov>
   ПослеОбновленияСпискаДокументов <func/pm/Posle_Obnovleniya_Spiska_Dokumentov>
+  ПриОткрытииФормы <func/pm/Pri_Otkrytii_Formy>
+  ПриПолученииДанныхТабличнойЧасти <func/pm/Pri_Poluchenii_Dannykh_Tablichnoy_Chasti>
+  УстановитьУсловноеОформление <func/pm/Ustanovit'_Uslovnoye_Oformleniye>
 
 
 Прочие функции
