@@ -2,10 +2,60 @@
 Функции подключаемого модуля
 ============================
 
+Исходящие документы
+-------------------
+
 .. toctree::
-  :name: Auto
+  :name: Исходящие документы
   :maxdepth: 1
 
-  Исходящие пакеты <Iskhodyashchiye_Pakety>
-  Входящие пакеты <Vkhodyashchiye_Pakety>
-  Прочие функции <Prochiye_Funktsii>
+  ПодготовитьПакет <func/pm/Podgotovit'Paket>
+  ПодготовитьЭлектронныйДокумент <func/pm/Podgotovit'ElektronnyyDokument>
+  ПолучитьТаблицуИспользуемыхВидовДокументов <func/pm/Poluchit'TablitsuIspol'zuyemykhVidovDokumentov>
+  ПолучитьТаблицуИспользуемыхПакетов <func/pm/Poluchit'TablitsuIspol'zuyemykhPaketov>
+  ПолучитьТекстЗапросаДляСпискаПакетовНаОтправкуПоМассивуВидовПакетов <func/pm/Poluchit'TekstZaprosaDlyaSpiskaPaketovNaOtpravkuPoMassivuVidovPaketov>
+  ПослеОтправкиПакета <func/pm/Posle_Otpravki_Paketa>
+  ПослеПодготовкиПакета <func/pm/PoslePodgotovkiPaketa>
+
+
+Входящие документы
+------------------
+
+.. toctree::
+  :name: Входящие документы
+  :maxdepth: 0
+
+  ВыполнитьТребуемоеДействие <func/pm/Vypolnit'_Trebuyemoye_Deystviye>
+  НайтиСопоставлениеДокумента <func/pm/Nayti_Sopostavleniye_Dokumenta>
+  ПолучитьЗаполненныйОбъектДокумента1С <func/pm/Poluchit'_Zapolnennyy_Obyekt_Dokumenta_1S>
+  ПослеАнализаПакета <func/pm/Posle_Analiza_Paketa>
+  ПровестиАнализДокумента <func/pm/Provesti_Analiz_Dokumenta>
+  СопоставитьНоменклатуруПоставщика <func/pm/Sopostavit'_Nomenklaturu_Postavshchika>
+
+
+Дополнение формы модуля
+-----------------------
+
+.. toctree::
+  :name: Изменение списка документов
+  :maxdepth: 0
+
+  ЗаполнитьСписокДополнительныхКнопок <func/pm/Zapolnit'_Spisok_Dopolnitel'nykh_Knopok>
+  НажатиеДополнительнойКнопки <func/pm/Nazhatiye_Dopolnitel'noy_Knopki>
+  ПолучитьНастройкиДополнительныхКолонокСпискаДокументов <func/pm/Poluchit'_Nastroyki_Dopolnitel'nykh_Kolonok_Spiska_Dokumentov>
+  ПослеОбновленияСпискаДокументов <func/pm/Posle_Obnovleniya_Spiska_Dokumentov>
+
+
+Прочие функции
+--------------
+
+.. toctree::
+  :name: Прочие функции
+  :maxdepth: 0
+
+  ВыполнитьРегламентныеДействия <func/pm/Vypolnit'_Reglamentnyye_Deystviya>
+  ОбработатьСобытие <func/pm/Obrabotat'Sobytiye>
+  ОпределитьТипЗначенияОбъекта <func/pm/Opredelit'_Tip_Znacheniya_Obyekta>
+  ПолучитьКоличествоДокументовЗаПериод <func/pm/Poluchit'_Kolichestvo_Dokumentov_Za_Period>
+  ПослеОбработкиЛентыСобытий <func/pm/Posle_Obrabotki_Lenty_Sobytiy>
+  ПослеУстановкиСтатусаДокумента <func/pm/Posle_Ustanovki_Statusa_Dokumenta>

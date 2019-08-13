@@ -56,20 +56,17 @@
 
 В настройках основной обработки модуля Диадок есть возможность указать путь к доработанному ПМ, что упрощает настройку системы под бизнес-процессы каждого клиента.
 
-|image0|
-
-.. |image0| image:: _static/Nastroyka_ispolzovaniya_PM.png
-
 Примеры использования подключаемого модуля
 ------------------------------------------
 
 .. toctree::
   :name: ПМ
-  :maxdepth: 1
+  :maxdepth: 4
 
-  Как подготовить пакет документов для отправки <proc/pm/Podgotovka_Paketa_Dlya_Otpravki>
-  Дополнительная обработка исходящих пакетов <proc/pm/Dop_Obrabotka_Iskhodyashchikh_Paketov>
-  Как обработать входящий пакет документов <proc/pm/Obrabotka_Vkhodyashchikh_Paketov>
+  Исходящие: как подготовить пакет документов для отправки <proc/pm/Podgotovka_Paketa_Dlya_Otpravki>
+  Исходящие: дополнительная обработка исходящих пакетов <proc/pm/Dop_Obrabotka_Iskhodyashchikh_Paketov>
+  Входящие: как обработать входящий пакет документов <proc/pm/Obrabotka_Vkhodyashchikh_Paketov>
+  Интерфейс: как доработать таблицу списка документов <proc/pm/Dorabotka_Spiska_Dokumentov>
+  Интерфейс: Как добавить кнопки в действия <proc/pm/Dobavleniye_Knopok>
   Регламентное задание <proc/pm/Reglamentnoye_Zadaniye>
-  Как доработать таблицу списка документов <proc/pm/Dorabotka_Spiska_Dokumentov>
-  Как добавить кнопки в действия <proc/pm/Dobavleniye_Knopok>
+  Дополнительные возможности <proc/pm/Dopolnitel'nyye_Vozmozhnosti>
