@@ -67,6 +67,6 @@
   Исходящие: дополнительная обработка исходящих пакетов <proc/pm/Dop_Obrabotka_Iskhodyashchikh_Paketov>
   Входящие: как обработать входящий пакет документов <proc/pm/Obrabotka_Vkhodyashchikh_Paketov>
   Интерфейс: как доработать таблицу списка документов <proc/pm/Dorabotka_Spiska_Dokumentov>
-  Интерфейс: Как добавить кнопки в действия <proc/pm/Dobavleniye_Knopok>
+  Интерфейс: как добавить кнопки в действия <proc/pm/Dobavleniye_Knopok>
   Регламентное задание <proc/pm/Reglamentnoye_Zadaniye>
   Дополнительные возможности <proc/pm/Dopolnitel'nyye_Vozmozhnosti>
