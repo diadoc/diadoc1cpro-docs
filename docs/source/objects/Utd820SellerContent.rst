@@ -31,13 +31,13 @@
   **Дата (ДД.ММ.ГГГГ)** - дата исправления [`ДатаИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239656>`_]
 
 :HyphenRevisionDate:
-  **Булево** - Если Истина, то будет указано значение "-" в поле [`ДефДатаИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=318899>`_]
+  **Булево** - признак того, что в графе "Исправление" не указана дата исправленного счета-фактуры. Если Истина, то будет указано значение "-" в поле [`ДефДатаИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=318899>`_]
 
 :RevisionNumber:
   **Число (3)** - номер исправления [`НомИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239657>`_]
 
 :HyphenRevisionNumber:
-  **Булево** - Если Истина, то будет указано значение "-" в поле [`ДефНомИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=318900>`_]
+  **Булево** - признак того, что в графе "Исправление" не указан номер исправленного счета-фактуры. Если Истина, то будет указано значение "-" в поле [`ДефНомИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=318900>`_]
 
 :DocumentCreator:
   **Строка (1-1000)** - составитель файла обмена счета-фактуры (информации продавца) [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239658>`_]

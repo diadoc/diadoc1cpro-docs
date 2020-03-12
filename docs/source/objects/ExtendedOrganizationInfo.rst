@@ -14,7 +14,7 @@ ExtendedOrganizationInfo
   Если не заполнено, то будет указано значение "-" в поле [`ДефИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241841>`_]/ [`ДефИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241840>`_].
 
 :HyphenInn:
-  **Булево** - Если Истина, то будет указано значение "-" в поле [`ДефИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241841>`_]/ [`ДефИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241840>`_].
+  **Булево** - признак того, что ИНН организации не указан. Если Истина, то будет указано значение "-" в поле [`ДефИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241841>`_]/ [`ДефИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241840>`_].
 
 :Kpp:
   **Строка (=9)** - КПП организации [`КПП <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241842>`_]

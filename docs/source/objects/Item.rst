@@ -13,7 +13,7 @@ Item
   **Строка (3-4)** - код единицы измерения [`ОКЕИ_Тов <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239724>`_]
 
 :HyphenUnit:
-  **Булево** - если Истина, то будет установлено значение "-" в поле [`ДефОКЕИ_Тов <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=318878>`_]
+  **Булево** - признак того, что код единицы измерения не указан. Если Истина, то будет установлено значение "-" в поле [`ДефОКЕИ_Тов <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=318878>`_]
 
 :UnitName:
   **Строка (1-255)** - наименование единицы измерения [`НаимЕдИзм <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239726>`_]
@@ -39,7 +39,7 @@ Item
   Если есть значение, то будет заполнено поле [`СумНал/СумНал <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239718>`_].
   
 :HyphenVat:
-  **Булево** - если Истина, то будет установлено значение "-" в поле [`ДефНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239719>`_].
+  **Булево** - признак того, что сумма налога не указана. Если Истина, то будет установлено значение "-" в поле [`ДефНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239719>`_].
 
 :WithoutVat:
   **Строка** - принимает значение либо "false", либо "true". Используется для заполнения [`СумНал <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239736>`_].
@@ -50,7 +50,7 @@ Item
   Если не указано значение, тогда будет заполнено поле [`ДефСтТовУчНал <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239738>`_].
 
 :HyphenSubtotal:
-  **Булево** - если Истина, то будет установлено значение "-" в поле [`ДефСтТовУчНал <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239738>`_].
+  **Булево** - признак того, что стоимость товаров (работ, услуг) не указана. Если Истина, то будет установлено значение "-" в поле [`ДефСтТовУчНал <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239738>`_].
 
 :ItemMark:
   **Строка** - принимает значения "Property" (имущество), "Job" (работа), "Service" (услуга), "PropertyRights" (имущественные права), "Other" (иное), "NotSpecified" (Неопределено) [`ПрТовРаб <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239739>`_]
