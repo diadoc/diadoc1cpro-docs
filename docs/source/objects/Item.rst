@@ -36,8 +36,7 @@ Item
 
 :Vat:
   **Число (19,2)** - сумма налога, предъявляемая покупателю [`СумНал <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239736>`_].
-  Если есть значение, то будет заполнено поле [`СумНал/СумНал <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239718>`_].
-  
+
 :HyphenVat:
   **Булево** - признак того, что сумма налога не указана. Если Истина, то будет установлено значение "-" в поле [`ДефНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239719>`_].
 
