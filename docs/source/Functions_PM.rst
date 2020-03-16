@@ -29,6 +29,7 @@
   НайтиСопоставлениеДокумента <func/pm/Nayti_Sopostavleniye_Dokumenta>
   ПолучитьЗаполненныйОбъектДокумента1С <func/pm/Poluchit'_Zapolnennyy_Obyekt_Dokumenta_1S>
   ПослеАнализаПакета <func/pm/Posle_Analiza_Paketa>
+  ПравилаСопоставленияДокумента <func/pm/Pravila_Sopostavleniya_Dokumenta>
   ПровестиАнализДокумента <func/pm/Provesti_Analiz_Dokumenta>
   СопоставитьНоменклатуруПоставщика <func/pm/Sopostavit'_Nomenklaturu_Postavshchika>
 

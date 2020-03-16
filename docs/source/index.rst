@@ -24,6 +24,5 @@
   :maxdepth: 1
   :caption: Объекты модуля
 
-  Основные объекты <Main_Objects>
   Вспомогательные структуры <Support_Objects>
   УПД 820 <UPD820>
