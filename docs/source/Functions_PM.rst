@@ -32,6 +32,7 @@
   ПравилаСопоставленияДокумента <func/pm/Pravila_Sopostavleniya_Dokumenta>
   ПровестиАнализДокумента <func/pm/Provesti_Analiz_Dokumenta>
   СопоставитьНоменклатуруПоставщика <func/pm/Sopostavit'_Nomenklaturu_Postavshchika>
+  ОтборСопоставленияНоменклатуры <func/pm/Otbor_Sopostavleniya_Nomenklatury>
 
 
 Дополнение формы модуля
