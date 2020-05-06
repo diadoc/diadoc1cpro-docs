@@ -7,7 +7,7 @@ AddressInfo
 .. rubric:: Свойства
 
 :IsForeign:
-  **Булево** - признак того, что адрес является иностранным (за пределами РФ). Если установлен признак Истина, тогда будет заполнен [`АдрРФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241919>`_]
+  **Булево** - признак того, что адрес является иностранным (за пределами РФ). Если установлен признак Истина, тогда будет заполнен [`АдрИнф <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=345315>`_]
 
 :ZipCode:
   **Строка (=6)** - индекс [`Индекс <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241920>`_]
