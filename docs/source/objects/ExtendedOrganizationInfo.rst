@@ -63,3 +63,6 @@ ExtendedOrganizationInfo
 
 :IndividualEntityRegistrationCertificate:
   **Строка (1-100)** - реквизиты свидетельства о государственной регистрации индивидуального предпринимателя [`СвГосРегИП <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241870>`_]
+  
+:LegalEntityId:
+  **Строка (1-255)** - Идентификатор юридического лица-нерезидента [`Идентиф <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=396450>`_]
