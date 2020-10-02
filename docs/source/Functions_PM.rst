@@ -64,3 +64,4 @@
   ПолучитьКоличествоДокументовЗаПериод <func/pm/Poluchit'_Kolichestvo_Dokumentov_Za_Period>
   ПослеОбработкиЛентыСобытий <func/pm/Posle_Obrabotki_Lenty_Sobytiy>
   ПослеУстановкиСтатусаДокумента <func/pm/Posle_Ustanovki_Statusa_Dokumenta>
+  ПечатнаяФормаДокумента <func/pm/PechatnayaFormaDocumenta>
