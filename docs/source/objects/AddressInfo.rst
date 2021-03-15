@@ -40,7 +40,7 @@ AddressInfo
   **Строка (=3)** - код страны (для адреса за пределами РФ) [`КодСтр <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241929>`_]
 
 :AddressText:
-  **Строка (1-255)** - строка адреса [`АдрТекст <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241930>`_]
+  **Строка (1-1000)** - строка адреса [`АдрТекст <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=241930>`_]
 
 :AddressCode:
   **Строка (1-36)** - уникальный номер адреса объекта адресации в государственном адресном реестре [`КодГАР <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=242169>`_]
