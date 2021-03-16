@@ -27,6 +27,7 @@
 
   ВыполнитьТребуемоеДействие <func/pm/Vypolnit'_Trebuyemoye_Deystviye>
   НайтиСопоставлениеДокумента <func/pm/Nayti_Sopostavleniye_Dokumenta>
+  СписокТиповДокументовДляСоздания <func/pm/СписокТиповДокументовДляСоздания>
   ПолучитьЗаполненныйОбъектДокумента1С <func/pm/Poluchit'_Zapolnennyy_Obyekt_Dokumenta_1S>
   ПослеАнализаПакета <func/pm/Posle_Analiza_Paketa>
   ПравилаСопоставленияДокумента <func/pm/Pravila_Sopostavleniya_Dokumenta>
