@@ -16,6 +16,8 @@
   ПолучитьТекстЗапросаДляСпискаПакетовНаОтправкуПоМассивуВидовПакетов <func/pm/Poluchit'TekstZaprosaDlyaSpiskaPaketovNaOtpravkuPoMassivuVidovPaketov>
   ПослеОтправкиПакета <func/pm/Posle_Otpravki_Paketa>
   ПослеПодготовкиПакета <func/pm/PoslePodgotovkiPaketa>
+  ПодготовитьЭлектронныйДокументПоВнешнейПечатнойФорме <func/pm/ПодготовитьЭлектронныйДокументПоВнешнейПечатнойФорме>
+  ЗаполнитьРеквизитыДокумента <func/pm/ЗаполнитьРеквизитыДокумента>
 
 
 Входящие документы
@@ -66,3 +68,4 @@
   ПослеОбработкиЛентыСобытий <func/pm/Posle_Obrabotki_Lenty_Sobytiy>
   ПослеУстановкиСтатусаДокумента <func/pm/Posle_Ustanovki_Statusa_Dokumenta>
   ПечатнаяФормаДокумента <func/pm/PechatnayaFormaDocumenta>
+  ОбновитьКомментарийДокументаУчета <func/pm/ОбновитьКомментарийДокументаУчета>
