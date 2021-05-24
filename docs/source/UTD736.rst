@@ -1,0 +1,30 @@
+
+Структуры для заполнения контента УКД в формате приказа ЕД-7-26/736@
+====================================================================
+
+.. note::
+
+	Поддержка осуществляется в модуле Pro с версии 4.5.0.
+
+.. toctree::
+  :maxdepth: 1
+
+  UсdSellerContent <objects/UсdSellerContent>
+  UсdBuyerContent <objects/UсdBuyerContent>
+	AdditionalInfoId <objects/AdditionalInfoId>
+	AddressInfo <objects/AddressInfo>
+	AmountsDiff <objects/AmountsDiff>
+	BaseDocumentName <objects/BaseDocumentName>
+	EventContent <objects/EventContent>
+	ExtendedInvoiceCorrectionItem <objects/ExtendedInvoiceCorrectionItem>
+	ExtendedOrganizationInfo <objects/ExtendedOrganizationInfo>
+	ExtendedSigner <objects/ExtendedSigner>
+	ExtendedSignerDetails <objects/ExtendedSignerDetails>
+	InvoiceCorrectionTable <objects/InvoiceCorrectionTable>
+	InvoiceForCorrectionInfo <objects/InvoiceForCorrectionInfo>
+	InvoiceItemFields <objects/InvoiceItemFields>
+	InvoiceRevisionInfo <objects/InvoiceRevisionInfo>
+	ItemIdentificationNumber <objects/ItemIdentificationNumber>
+	ItemTracingInfo <objects/ItemTracingInfo>
+	StructedAdditionalInfo <objects/StructedAdditionalInfo>
+	Totals <objects/Totals>
