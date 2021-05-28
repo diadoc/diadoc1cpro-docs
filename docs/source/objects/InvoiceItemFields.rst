@@ -29,7 +29,7 @@ InvoiceItemFields
   **Число (19,2)** - сумма налога, предъявляемая покупателю [`СумНал <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611293>`_].
 
 :WithoutVat:
-  **Строка** - принимает значение либо "false", либо "true". Используется для заполнения [`СумНал <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611295>`_].
+  **Строка** - принимает значение либо "false", либо "true". Используется для заполнения [`СумНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2612038>`_].
   Если указано значение "true", тогда будет заполнено [`БезНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611294>`_]
 
 :Total:

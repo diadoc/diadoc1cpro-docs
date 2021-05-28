@@ -49,4 +49,4 @@ ExtendedInvoiceCorrectionItem
   **Коллекция** :doc:`ItemIdentificationNumber <../../objects/ItemIdentificationNumber>` - номер средства идентификации товаров после изменения [`НомСредИдентТовПосле <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611275>`_]
 
 :ItemTracingInfos:
-  **Коллекция** :doc:`ItemTracingInfos <../../objects/ItemTracingInfos>` - сведения о товаре, подлежащем прослеживаемости [`СведПрослеж <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611276>`_]
+  **Коллекция** :doc:`ItemTracingInfo <../../objects/ItemTracingInfo>` - сведения о товаре, подлежащем прослеживаемости [`СведПрослеж <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611276>`_]
