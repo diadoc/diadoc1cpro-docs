@@ -9,7 +9,7 @@
 .. toctree::
   :maxdepth: 1
 
-  UсdSellerContent <objects/UсdSellerContent>
+  UcdSellerContent <objects/UcdSellerContent>
   UсdBuyerContent <objects/UсdBuyerContent>
 	AdditionalInfoId <objects/AdditionalInfoId>
 	AddressInfo <objects/AddressInfo>
@@ -26,5 +26,5 @@
 	InvoiceRevisionInfo <objects/InvoiceRevisionInfo>
 	ItemIdentificationNumber <objects/ItemIdentificationNumber>
 	ItemTracingInfo <objects/ItemTracingInfo>
-	StructedAdditionalInfo <objects/StructedAdditionalInfo>
-	Totals <objects/Totals>
+	StructedAdditionalInfo <objects/AdditionalInfoItem>
+	Totals <objects/InvoiceTotalsDiff>

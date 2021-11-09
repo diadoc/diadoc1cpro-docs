@@ -29,4 +29,4 @@ Table
   Если указано значение "true", тогда будет заполнено [`БезНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239711>`_]
 
 :Items:
-  **Коллекция** :doc:`Item <../../objects/Item>` — сведения об отгруженных товарах (о выполненных работах, оказанных услугах), переданных имущественных правах [`СведТов <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239720>`_]
+  **Коллекция** :doc:`Item <../../objects/Item820>` — сведения об отгруженных товарах (о выполненных работах, оказанных услугах), переданных имущественных правах [`СведТов <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239720>`_]

@@ -19,7 +19,7 @@ TransferInfo
   **Строка (1-1000)** — сведения о транспортировке и грузе [`СвТранГруз <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239843>`_]
 
 :Carrier:
-  :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` — перевозчик [`Перевозчик <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239834>`_]
+  :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo820>` — перевозчик [`Перевозчик <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239834>`_]
 
 :Employee:
   :doc:`Employee <../../objects/Employee>` — работник организации продавца [`РабОргПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239835>`_]
