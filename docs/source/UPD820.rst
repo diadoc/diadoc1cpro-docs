@@ -15,22 +15,22 @@
 	AddressInfo <objects/AddressInfo>
   BuyerInfoCircumPublicProc <objects/BuyerInfoCircumPublicProc>
 	ContentOperCode <objects/ContentOperCode>
-	CustomDeclaration <objects/CustomDeclaration>
+	CustomDeclaration <objects/CustomDeclaration820>
 	DocumentShipment <objects/DocumentShipment>
 	Employee <objects/Employee>
-	ExtendedOrganizationInfo <objects/ExtendedOrganizationInfo>
+	ExtendedOrganizationInfo <objects/ExtendedOrganizationInfo820>
 	ExtendedSigner <objects/ExtendedSigner>
 	ExtendedSignerDetails <objects/ExtendedSignerDetails>
   InfoFundsLiab <objects/InfoFundsLiab>
-	Item <objects/Item>
+	Item <objects/Item820>
 	ItemTracingInfo <objects/ItemTracingInfo>
 	ItemIdentificationNumber <objects/ItemIdentificationNumber>
 	OtherIssuer <objects/OtherIssuer>
 	PaymentDocumentInfo <objects/PaymentDocumentInfo>
 	SellerInfoCircumPublicProc <objects/SellerInfoCircumPublicProc>
-  Shipper <objects/Shipper>
-	StructedAdditionalInfo <objects/StructedAdditionalInfo>
-  Table <objects/Table>
-	TransferBase <objects/TransferBase>
-	TransferInfo <objects/TransferInfo>
+  Shipper <objects/Shipper820>
+	StructedAdditionalInfo <objects/AdditionalInfoItem>
+  Table <objects/InvoiceTable820>
+	TransferBase <objects/TransferBase820>
+	TransferInfo <objects/TransferInfo820>
 	Waybill <objects/Waybill>

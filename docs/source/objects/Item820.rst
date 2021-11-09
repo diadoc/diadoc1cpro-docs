@@ -79,10 +79,10 @@ Item
   **Строка (=10)** — код вида товара [`КодВидТов <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239762>`_]
 
 :CustomDeclarations:
-  **Коллекция** :doc:`CustomDeclaration <../../objects/CustomDeclaration>` — сведения о таможенной декларации [`СвТД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239764>`_]
+  **Коллекция** :doc:`CustomDeclaration <../../objects/CustomDeclaration820>` — сведения о таможенной декларации [`СвТД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239764>`_]
 
 :StructedAdditionalInfos:
-  **Коллекция** :doc:`StructedAdditionalInfo <../../objects/StructedAdditionalInfo>` — информационное поле факта хозяйственной жизни 2 [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239765>`_]
+  **Коллекция** :doc:`StructedAdditionalInfo <../../objects/AdditionalInfoItem>` — информационное поле факта хозяйственной жизни 2 [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239765>`_]
 
 :ItemTracingInfos:
   **Коллекция** :doc:`ItemTracingInfo <../../objects/ItemTracingInfo>` — сведения о товаре, подлежащем прослеживаемости [`СведПрослеж <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239766>`_]

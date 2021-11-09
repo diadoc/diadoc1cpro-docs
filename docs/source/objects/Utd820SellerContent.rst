@@ -52,16 +52,16 @@
   **Строка (=1)** — обстоятельства формирования счета-фактуры, применяемого при расчетах по налогу на добавленную стоимость [`ОбстФормСЧФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239661>`_]
 
 :Sellers:
-  **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` — сведения о продавце [`СвПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239664>`_]
+  **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo820>` — сведения о продавце [`СвПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239664>`_]
 
 :Buyers:
-  **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` — сведения о покупателе [`СвПокуп <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239665>`_]
+  **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo820>` — сведения о покупателе [`СвПокуп <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239665>`_]
 
 :Shippers:
-  **Коллекция** :doc:`Shipper <../../objects/Shipper>` — сведения о грузоотправителе [`ГрузОт <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239666>`_]
+  **Коллекция** :doc:`Shipper <../../objects/Shipper820>` — сведения о грузоотправителе [`ГрузОт <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239666>`_]
 
 :Consignees:
-  **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` — грузополучатель и его адрес [`ГрузПолуч <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239667>`_]
+  **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo820>` — грузополучатель и его адрес [`ГрузПолуч <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239667>`_]
 
 :Signers:
   **Коллекция** :doc:`ExtendedSigner <../../objects/ExtendedSigner>` — подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239668>`_]
@@ -73,16 +73,16 @@
   :doc:`AdditionalInfoId <../../objects/AdditionalInfoId>` — информационное поле документа [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239671>`_]
 
 :Table:
-  :doc:`Table <../../objects/Table>` — сведения таблицы счета-фактуры  [`ТаблСчФакт <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239676>`_]
+  :doc:`Table <../../objects/InvoiceTable820>` — сведения таблицы счета-фактуры  [`ТаблСчФакт <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239676>`_]
 
 :TransferInfo:
-  :doc:`TransferInfo <../../objects/TransferInfo>` — сведения о передаче (сдаче) [`СвПер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239677>`_]
+  :doc:`TransferInfo <../../objects/TransferInfo820>` — сведения о передаче (сдаче) [`СвПер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239677>`_]
 
 :FactorInfo:
-  :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` — сведения о факторе [`СвФактор <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239678>`_]
+  :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo820>` — сведения о факторе [`СвФактор <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239678>`_]
 
 :MainAssignMonetaryClaim:
-  :doc:`TransferBase <../../objects/TransferBase>` — основание уступки денежного требования [`ОснУстДенТреб <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239679>`_]
+  :doc:`TransferBase <../../objects/TransferBase820>` — основание уступки денежного требования [`ОснУстДенТреб <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239679>`_]
 
 :SellerInfoCircumPublicProc:
   :doc:`SellerInfoCircumPublicProc <../../objects/SellerInfoCircumPublicProc>` — информация продавца об обстоятельствах закупок для государственных и муниципальных нужд [`ИнфПродГосЗакКазн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239681>`_]

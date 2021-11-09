@@ -10,4 +10,4 @@ Shipper
   **Булево** — указано "он же" [`ОнЖе <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239691>`_]
 
 :OrganizationInfo:
-  :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` — грузоотправитель и его адрес  [`ГрузОтпр <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239694>`_]
+  :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo820>` — грузоотправитель и его адрес  [`ГрузОтпр <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239694>`_]

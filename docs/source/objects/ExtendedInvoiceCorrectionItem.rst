@@ -40,7 +40,7 @@ ExtendedInvoiceCorrectionItem
   **Строка (1-1000)** — характеристика/описание товара [`ХарактерТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611281>`_]
 
 :StructedAdditionalInfos:
-  **Коллекция** :doc:`StructedAdditionalInfo <../../objects/StructedAdditionalInfo>` — информационное поле факта хозяйственной жизни 2 [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611270>`_]
+  **Коллекция** :doc:`StructedAdditionalInfo <../../objects/AdditionalInfoItem>` — информационное поле факта хозяйственной жизни 2 [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611270>`_]
 
 :OriginalItemIdentificationNumbers:
   **Коллекция** :doc:`ItemIdentificationNumber <../../objects/ItemIdentificationNumber>` — номер средства идентификации товаров до изменения [`НомСредИдентТовДо <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611273>`_]
