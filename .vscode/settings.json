@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "отправку",
-    ]
+    ],
+    "restructuredtext.confPath": "${workspaceFolder}\\docs\\source"
 }

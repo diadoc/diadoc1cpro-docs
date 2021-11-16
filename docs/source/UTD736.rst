@@ -1,6 +1,6 @@
 
 Структуры для заполнения контента УКД в формате приказа ЕД-7-26/736@
-====================================================================
+======================================================================
 
 .. note::
 
@@ -9,22 +9,23 @@
 .. toctree::
   :maxdepth: 1
 
-  UcdSellerContent <objects/UcdSellerContent>
-  UсdBuyerContent <objects/UсdBuyerContent>
-	AdditionalInfoId <objects/AdditionalInfoId>
-	AddressInfo <objects/AddressInfo>
+    UсdSellerContent <objects/UcdSellerContent>
+    UсdBuyerContent <objects/UсdBuyerContent>
+	AdditionalInfoId <objects/AdditionalInfoId736>
+	AddressInfo <objects/AddressInfo736>
 	AmountsDiff <objects/AmountsDiff>
 	BaseDocumentName <objects/BaseDocumentName>
 	EventContent <objects/EventContent>
 	ExtendedInvoiceCorrectionItem <objects/ExtendedInvoiceCorrectionItem>
 	ExtendedOrganizationInfo <objects/ExtendedOrganizationInfo>
-	ExtendedSigner <objects/ExtendedSigner>
-	ExtendedSignerDetails <objects/ExtendedSignerDetails>
+	ExtendedSigner <objects/ExtendedSigner736>
+	ExtendedSignerDetails <objects/ExtendedSignerDetails736>
 	InvoiceCorrectionTable <objects/InvoiceCorrectionTable>
 	InvoiceForCorrectionInfo <objects/InvoiceForCorrectionInfo>
 	InvoiceItemFields <objects/InvoiceItemFields>
 	InvoiceRevisionInfo <objects/InvoiceRevisionInfo>
-	ItemIdentificationNumber <objects/ItemIdentificationNumber>
-	ItemTracingInfo <objects/ItemTracingInfo>
-	StructedAdditionalInfo <objects/AdditionalInfoItem>
+	ItemIdentificationNumber <objects/ItemIdentificationNumber736>
+	ItemTracingInfo <objects/ItemTracingInfo736>
+	QuantityDiff <objects/QuantityDiff>
+	StructedAdditionalInfo <objects/StructedAdditionalInfo736>
 	Totals <objects/InvoiceTotalsDiff>

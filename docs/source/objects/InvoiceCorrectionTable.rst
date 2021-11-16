@@ -6,11 +6,11 @@ InvoiceCorrectionTable
 
 .. rubric:: Свойства
 
-:TotalsInc:
-  :doc:`Totals <../../objects/Totals>` — реквизиты строки "Всего увеличение" [`ВсегоУвел <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611151>`_]
+:Items:
+  **Коллекция** :doc:`ExtendedInvoiceCorrectionItem <../../objects/ExtendedInvoiceCorrectionItem>` — сведения о товаре (работе, услуге), имущественном праве [`СведТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611150>`_]
 
 :TotalsDec:
   :doc:`Totals <../../objects/Totals>` — реквизиты строки "Всего уменьшение" [`ВсегоУм <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611152>`_]
 
-:Items:
-  **Коллекция** :doc:`ExtendedInvoiceCorrectionItem <../../objects/ExtendedInvoiceCorrectionItem>` — сведения о товаре (работе, услуге), имущественном праве [`СведТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611150>`_]
+:TotalsInc:
+  :doc:`Totals <../../objects/Totals>` — реквизиты строки "Всего увеличение" [`ВсегоУвел <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611151>`_]
