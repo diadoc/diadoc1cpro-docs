@@ -48,11 +48,14 @@ ExtendedInvoiceCorrectionItem
 :OriginalNumber:
   **Число (6)** — порядковый номер товара (выполненных работ, оказанных услуг) и пр. [`ПорНомТовВСЧФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611268>`_]
 
+
+
 :OriginalValues:
-**Коллекция** :doc:`InvoiceItemFields <../../objects/InvoiceItemFields>` — поля до изменения
+  **Коллекция** :doc:`InvoiceItemFields <../../objects/InvoiceItemFields>` — поля до изменения
 
 :Product:
   **Строка (1-1000)** — наименование отгруженных товаров (выполненных работ, оказанных услуг), переданных имущественных прав [`НаимТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611263>`_]
 
 :StructedAdditionalInfos:
-  **Коллекция** :doc:`StructedAdditionalInfo <../../objects/StructedAdditionalInfo>` — информационное поле факта хозяйственной жизни 2 [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611270>`_]
+  **Коллекция** :doc:`StructedAdditionalInfo <../../objects/StructedAdditionalInfo736>` — информационное поле факта хозяйственной жизни 2 [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611270>`_]
+

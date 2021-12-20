@@ -31,7 +31,7 @@ TransferInfo
   :doc:`OtherIssuer <../../objects/OtherIssuer>` — иное лицо [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239836>`_]
 
 :TransferBases:
-  **Коллекция** :doc:`TransferBase <../../objects/TransferBase>` — основание отгрузки товаров (передачи результатов работ), передачи имущественных прав (предъявления оказанных услуг) [`ОснПер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239845>`_]
+  **Коллекция** :doc:`TransferBase <../../objects/TransferBase820>` — основание отгрузки товаров (передачи результатов работ), передачи имущественных прав (предъявления оказанных услуг) [`ОснПер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239845>`_]
 
 :TransferDate:
   **Дата (ДД.ММ.ГГГГ)** — дата отгрузки товаров (передачи результатов работ), передачи имущественных прав (предъявления оказанных услуг) [`ДатаПер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239833>`_]
