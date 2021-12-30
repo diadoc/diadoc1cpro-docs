@@ -18,8 +18,11 @@ ContentOperCode
 :NumberDiscrepDocument:
   **Строка (1-255)** — номер документа покупателя о расхождениях [`НомДокРасх <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239613>`_]
 
-:TotalCode:
+:TotalCode\*:
   **Строка (=1)** — код, обозначающий итог приемки товара (работ, услуг, прав) [`КодИтога <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239610>`_]
 
 :TypeDiscrepDocument:
   **Строка (=1)** — код вида документа о расхождениях [`ВидДокРасх <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239612>`_]
+
+
+\*обязательные поля

@@ -9,16 +9,16 @@
 :AdditionalInfoId:
   **Коллекция** :doc:`AdditionalInfoId <../../objects/AdditionalInfoId736>` — информационное поле события [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611137>`_]
 
-:Buyer:
+:Buyer\*:
   **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` — сведения о покупателе [`СвПокуп <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611132>`_]
 
-:Creator:
+:Creator\*:
   **Строка (1-1000)** — наименование экономического субъекта - составителя файла обмена корректировочного счета-фактуры с дополнительной информацией (информации продавца) [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611128>`_]
 
 :CreatorBase:
-  **Строка (1-120)** — основание, по которому экономический субъект является составителем файла обмена корректировочного счета-фактуры с дополнительной информацией (информации продавца) [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611129>`_]
+  **Строка (1-120)** — основание, по которому экономический субъект является составителем файла обмена корректировочного счета-фактуры с дополнительной информацией (информации продавца) [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611129>`_]. Обязательно, если составитель информации продавца не является продавцом
 
-:Currency:
+:Currency\*:
   **Строка (=3)** — код валюты [`КодОКВ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611123>`_]
 
 :CurrencyName:
@@ -27,42 +27,44 @@
 :CurrencyRate:
   **Число (10.4)** — курс валюты [`КурсВал <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611124>`_]
 
-:Date:
+:Date\*:
   **Дата (ДД.ММ.ГГГГ)** — дата составления (выписки) корректировочного счета-фактуры и (или) документа о согласии покупателя на изменение стоимости отгрузки [`ДатаКСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611121>`_]
 
 :EventContent:
   **Коллекция** :doc:`EventContent <../../objects/EventContent>` — сведения о факте согласования (уведомления)  [`СодФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611136>`_]
 
-:Function:
+:Function\*:
   **Строка (3-7)** — функция (|UсdSellerContent-Function|_) [`Функция <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611043>`_]
 
 :GovernmentContractInfo:
-  **Строка (20-25)** — идентификатор государственного контракта [`ИдГосКон <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611130>`_]
+  **Строка (20-25)** — идентификатор государственного контракта [`ИдГосКон <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611130>`_]. Обязателен при наличии государственного контракта на поставку товаров (выполнение работ, оказание услуг), договора о предоставлении из федерального бюджета юридическому лицу субсидий, бюджетных инвестиций, взносов в уставный капитал
 
-:InvoiceCorrectionTable:
+:InvoiceCorrectionTable\*:
   **Коллекция** :doc:`InvoiceCorrectionTable <../../objects/InvoiceCorrectionTable>` — сведения таблицы корректировочного счета-фактуры с дополнительной информацией  [`ТаблКСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611134>`_]
 
-:Invoices:
+:Invoices\*:
   **Коллекция** :doc:`InvoiceForCorrectionInfo <../../objects/InvoiceForCorrectionInfo>` — документ, к которому составлен корректировочный счет-фактура  [`СчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611135>`_]
 
 :Name:
   **Строка (1-255)** — наименование документа, определенное организацией (согласованное сторонами сделки) [`НаимДокОпр <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611044>`_]
 
-:Number:
+:Number\*:
   **Строка (1-1000)** — порядковый номер корректировочного счета-фактуры и (или) документа о согласии покупателя на изменение стоимости отгрузки [`НомерКСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611122>`_]
 
-:RevisionDate:
+:RevisionDate\*:
   **Дата (ДД.ММ.ГГГГ)** — дата исправления [`ДатаИспрКСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611126>`_]
 
-:RevisionNumber:
+:RevisionNumber\*:
   **Число (3)** — номер исправления [`НомИспрКСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611127>`_]
 
-:Seller:
+:Seller\*:
   **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo>` — сведения о продавце [`СвПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611131>`_]
 
-:Signers:
+:Signers\*:
   **Коллекция** :doc:`ExtendedSigner <../../objects/ExtendedSigner>` — сведения о лице, подписывающем файл обмена корректировочного счета-фактуры с дополнительной информацией (информации продавца) в электронной форме [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611133>`_]
 
+
+\*обязательные поля
 
 .. rubric:: Дополнительная информация
 

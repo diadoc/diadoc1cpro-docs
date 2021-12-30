@@ -18,19 +18,19 @@ TransferInfo
 :CreatedThingTransferDate:
   **Дата (ДД.ММ.ГГГГ)** — дата передачи вещи, изготовленной по договору подряда [`ДатаПерВещ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=2965554>`_]
 
-:Employee:
+:Employee\*:
   :doc:`Employee <../../objects/Employee>` — работник организации продавца [`РабОргПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239835>`_]
 
-:OperationInfo:
+:OperationInfo\*:
   **Строка (1-255)** — содержание операции [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239831>`_]
 
 :OperationType:
   **Строка (1-255)** — вид операции [`ВидОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239832>`_]
 
-:OtherIssuer:
+:OtherIssuer\*:
   :doc:`OtherIssuer <../../objects/OtherIssuer>` — иное лицо [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239836>`_]
 
-:TransferBases:
+:TransferBases\*:
   **Коллекция** :doc:`TransferBase <../../objects/TransferBase820>` — основание отгрузки товаров (передачи результатов работ), передачи имущественных прав (предъявления оказанных услуг) [`ОснПер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239845>`_]
 
 :TransferDate:
@@ -47,3 +47,6 @@ TransferInfo
 
 :Waybills:
   **Коллекция** :doc:`Waybill <../../objects/Waybill>` — транспортная накладная [`ТранНакл <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239846>`_]
+
+
+\*обязательные поля

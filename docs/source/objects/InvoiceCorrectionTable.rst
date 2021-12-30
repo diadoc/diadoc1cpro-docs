@@ -6,11 +6,14 @@ InvoiceCorrectionTable
 
 .. rubric:: Свойства
 
-:Items:
+:Items\*:
   **Коллекция** :doc:`ExtendedInvoiceCorrectionItem <../../objects/ExtendedInvoiceCorrectionItem>` — сведения о товаре (работе, услуге), имущественном праве [`СведТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611150>`_]
 
 :TotalsDec:
-  :doc:`Totals <../../objects/InvoiceTotalsDiff>` — реквизиты строки "Всего уменьшение" [`ВсегоУм <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611152>`_]
+  :doc:`Totals <../../objects/InvoiceTotalsDiff>` — реквизиты строки "Всего уменьшение" [`ВсегоУм <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611152>`_]. Обязательны при отсутствии [`ВсегоУвел <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611151>`_]
 
 :TotalsInc:
-  :doc:`Totals <../../objects/InvoiceTotalsDiff>` — реквизиты строки "Всего увеличение" [`ВсегоУвел <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611151>`_]
+  :doc:`Totals <../../objects/InvoiceTotalsDiff>` — реквизиты строки "Всего увеличение" [`ВсегоУвел <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611151>`_]. Обязательны при отсутствии [`ВсегоУм <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611152>`_]
+
+
+\*обязательные поля

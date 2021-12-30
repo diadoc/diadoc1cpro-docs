@@ -6,10 +6,10 @@ SellerInfoCircumPublicProc
 
 .. rubric:: Свойства
 
-:DateStateContract:
+:DateStateContract\*:
   **Дата (ДД.ММ.ГГГГ)** — дата государственного контракта [`ДатаГосКонт <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239798>`_]
 
-:NumberStateContract:
+:NumberStateContract\*:
   **Строка (1-100)** — номер государственного контракта [`НомерГосКонт <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239800>`_]
 
 :PersonalAccountSeller:
@@ -26,3 +26,6 @@ SellerInfoCircumPublicProc
 
 :SellerTreasuryName:
   **Строка (1-2000)** — наименование территориального органа Федерального казначейства продавца [`НаимКазначПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239809>`_]
+
+
+\*обязательные поля

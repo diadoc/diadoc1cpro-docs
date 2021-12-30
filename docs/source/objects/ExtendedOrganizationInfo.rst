@@ -27,7 +27,7 @@ ExtendedOrganizationInfo
 :CorrespondentAccount:
   **Строка (1-20)** — корреспондентский счет банка [`КорСчет <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969929>`_]
 
-:Country: 
+:Country\*:
   **Строка (1-255)** — страна [`Страна <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=2966201>`_]
 
 :Department:
@@ -36,14 +36,14 @@ ExtendedOrganizationInfo
 :Email:
   **Строка (1-255)** — адрес электронной почты [`ЭлПочта <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969938>`_]
 
-:FnsParticipantId:
+:FnsParticipantId\*:
   **Строка** — идентификатор участника ЭДО [`ИдОтпр <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969960>`_/ `ИдПол <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969961>`_]
 
 :IndividualEntityRegistrationCertificate:
-  **Строка (1-100)** — реквизиты свидетельства о государственной регистрации физического лица в качестве индивидуального предпринимателя [`СвГосРегИП <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969941>`_]
+  **Строка (1-100)** — реквизиты свидетельства о государственной регистрации физического лица в качестве индивидуального предпринимателя [`СвГосРегИП <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969941>`_]. Обязательны для случаев подписания корректировочного счета-фактуры непосредственно продавцом
 
-:Inn:
-  **Строка (10-12)** — ИНН организации [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969965>`_]/ [`ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969966>`_].
+:Inn\*:
+  **Строка (10-12)** — ИНН организации [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969965>`_]/ [`ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969966>`_]
 
 :Kpp:
   **Строка (=9)** — КПП организации [`КПП <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2970056>`_]
@@ -51,7 +51,7 @@ ExtendedOrganizationInfo
 :LegalEntityId:
   **Строка (1-255)** — идентификатор юридического лица-нерезидента [`Идентиф <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2970057>`_]
 
-:Name:
+:Name\*:
   **Строка** — наименование организации. Для индивидуального предпринимателя наименование задается в формате "Фамилия Имя Отчество" [`НаимОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2970058>`_]/ [`ФИО <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2970059>`_]
 
 :Okdp:
@@ -69,9 +69,11 @@ ExtendedOrganizationInfo
 :Phone:
   **Строка (1-255)** — номер контактного телефона [`Тлф	<https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2970064>`_]
 
-:Type:
-  **Строка, чтение/запись** — тип организации  (|ExtendedOrganizationInfo-Type|_) .
+:Type\*:
+  **Строка, чтение/запись** — тип организации  (|ExtendedOrganizationInfo-Type|_)
 
+
+\*обязательные поля
 
 .. rubric:: Дополнительная информация
 
@@ -81,7 +83,7 @@ ExtendedOrganizationInfo
 ===================== ===========================================================================================================================
 Значение *Type*       Описание
 ===================== ===========================================================================================================================
-ForeignEntity         Сведения об иностранном лице, не состоящем на учете в налоговых органах в качестве налогоплательщика ([`СвИнНеУч <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969957>`_])
-IndividualEntity      Сведения об индивидуальном предпринимателе ([`СвИП <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969958>`_])
-LegalEntity           Сведения о юридическом лице, состоящем на учете в налоговых органах ([`СвЮЛУч <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969959>`_])
+ForeignEntity         Сведения об иностранном лице, не состоящем на учете в налоговых органах в качестве налогоплательщика [`СвИнНеУч <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969957>`_]
+IndividualEntity      Сведения об индивидуальном предпринимателе [`СвИП <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969958>`_]
+LegalEntity           Сведения о юридическом лице, состоящем на учете в налоговых органах [`СвЮЛУч <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969959>`_]
 ===================== ===========================================================================================================================
