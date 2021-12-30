@@ -6,8 +6,11 @@ StructedAdditionalInfoId
 
 .. rubric:: Свойства
 
-:Key:
+:Key*
   **Строка (1-50)** — идентификатор [`Идентиф <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969481>`_]
 
-:Value:
+:Value*
   **Строка (1-2000)** — значение [`Значен <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969483>`_]
+
+
+\*обязательные поля

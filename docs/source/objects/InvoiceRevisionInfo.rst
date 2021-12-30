@@ -6,8 +6,11 @@ InvoiceRevisionInfo
 
 .. rubric:: Свойства
 
-:RevisionDate:
+:RevisionDate*
   **Дата (ДД.ММ.ГГГГ)** — дата исправления [`ДатаИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611328>`_]
 
-:RevisionNumber:
+:RevisionNumber*
   **Число (3)** — номер исправления [`НомИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611327>`_]
+
+
+\*обязательные поля

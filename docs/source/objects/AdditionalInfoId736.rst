@@ -6,8 +6,8 @@ AdditionalInfoId
 
 .. rubric:: Свойства
 
-:InfoFileId:
+:InfoFileId
   **Строка (=36)** — идентификатор файла информационного поля [`ИдФайлИнфПол <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969478>`_]
 
-:StructedAdditionalInfos:
+:StructedAdditionalInfos
   **Коллекция** :doc:`StructedAdditionalInfo <../../objects/StructedAdditionalInfo736>` — текстовая информация [`ТекстИнф <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969479>`_]

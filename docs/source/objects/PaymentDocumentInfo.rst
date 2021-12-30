@@ -6,11 +6,14 @@ PaymentDocumentInfo
 
 .. rubric:: Свойства
 
-:Date:
+:Date*
   **Дата (ДД.ММ.ГГГГ)** — дата составления платежно-расчетного документа [`ДатаПРД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239697>`_]
 
-:Number:
+:Number*
   **Строка (1-30)** — номер платежно-расчетного документа [`НомерПРД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239698>`_]
 
-:Total:
-  **Число (19.2)** — сумма платежно-расчетного документа [`СуммаПРД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239699>`_]
+:Total
+  **Число (19.2)** — сумма платежно-расчетного документа [`СуммаПРД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239699>`_]. Обязательна для учета Федеральным казначейством денежных обязательств
+
+
+\*обязательные поля

@@ -4,5 +4,8 @@ ExtendedSigner
 
 .. rubric:: Свойства
 
-:SignerDetails:
+:SignerDetails*
   :doc:`ExtendedSignerDetails <../../objects/ExtendedSignerDetails>` — информация о подписанте
+
+
+\*обязательные поля
