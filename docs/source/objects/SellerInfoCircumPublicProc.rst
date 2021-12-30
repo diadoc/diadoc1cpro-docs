@@ -6,26 +6,23 @@ SellerInfoCircumPublicProc
 
 .. rubric:: Свойства
 
-:DateStateContract*
+:DateStateContract:
   **Дата (ДД.ММ.ГГГГ)** — дата государственного контракта [`ДатаГосКонт <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239798>`_]
 
-:NumberStateContract*
+:NumberStateContract:
   **Строка (1-100)** — номер государственного контракта [`НомерГосКонт <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239800>`_]
 
-:PersonalAccountSeller
+:PersonalAccountSeller:
   **Строка (=11)** — номер лицевого счета продавца [`ЛицСчетПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239801>`_]
 
-:SellerBudjetClassCode
+:SellerBudjetClassCode:
   **Строка (=20)** — код по бюджетной классификации (продавец) [`КодПродБюджКласс <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239802>`_]
 
-:SellerTargetCode
+:SellerTargetCode:
   **Строка (=20)** — код цели (продавец) [`КодЦелиПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239803>`_]
 
-:SellerTreasuryCode
+:SellerTreasuryCode:
   **Строка (1-4)** — код территориального органа Федерального казначейства продавца [`КодКазначПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239807>`_]
 
-:SellerTreasuryName
+:SellerTreasuryName:
   **Строка (1-2000)** — наименование территориального органа Федерального казначейства продавца [`НаимКазначПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239809>`_]
-
-
-\*обязательные поля

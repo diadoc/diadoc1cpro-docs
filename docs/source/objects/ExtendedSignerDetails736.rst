@@ -6,47 +6,45 @@ ExtendedSignerDetails
 
 .. rubric:: Свойства
 
-:FirstName*
+:FirstName:
   **Строка (1-60)** — имя [`Имя <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969506>`_]
 
-:Inn*
+:Inn:
   **Строка (10-12)** — ИНН юридического лица или индивидуального предпринимателя [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969515>`_]/[`ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969516>`_]
 
-:JobTitle*
-  **Строка (1-128)** — должность [`Должн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969518>`_]
+:JobTitle:
+  **Строка (0-128)** — должность [`Должн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969518>`_]
 
-:OrganizationName
+:OrganizationName:
   **Строка (1-1000)** — наименование организации [`НаимОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969519>`_]
 
-:OrganizationPowersBase
-  **Строка (1-255)** — основание полномочий (доверия) организации [`ОснПолнОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=242188>`_].Обязательно для [`Статус <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969547>`_]=3
+:OrganizationPowersBase:
+  **Строка (1-255)** — основание полномочий (доверия) организации [`ОснПолнОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=242188>`_]
 
-:Patronymic
+:Patronymic:
   **Строка (1-60)** — отчество [`Отчество <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969508>`_]
 
-:Powers*
-  **Строка (=1)** — область полномочий |ExtendedSignerDetails-Powers|_ [`ОблПолн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969541>`_]
+:Powers:
+  **Строка (=1)** — область полномочий |ExtendedSignerDetails-Powers|_ [`ОблПолн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969541>`_].
 
-:PowersBase*
+:PowersBase:
   **Строка (1-255)** — основание полномочий (доверия) [`ОснПолн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969542>`_]
 
-:RegistrationCertificate
-  **Строка (1-100)** — реквизиты свидетельства о государственной регистрации индивидуального предпринимателя, выдавшего доверенность организации на подписание корректировочного счета-фактуры [`ГосРегИППодп <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969513>`_]. Обязательны для подписанта корректировочного счета-фактуры в случае выставления корректировочного счета-фактуры индивидуальным предпринимателем, когда корректировочный счет-фактура подписывается работником организации, уполномоченной доверенностью от имени индивидуального предпринимателя
+:RegistrationCertificate:
+  **Строка (1-100)** — реквизиты свидетельства о государственной регистрации индивидуального предпринимателя, выдавшего доверенность организации на подписание корректировочного счета-фактуры [`ГосРегИППодп <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969513>`_]
 
-:SignerInfo
+:SignerInfo:
   **Строка (1-255)** — иные сведения, идентифицирующие физическое лицо [`ИныеСвед <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969543>`_]
 
-:SignerType*
+:SignerType:
   **Строка** — тип подписанта |ExtendedSignerDetails-SignerType|_
 
-:Status*
-  **Строка (=1)** — статус |ExtendedSignerDetails-Status|_ [`Статус <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969547>`_]
+:Status:
+  **Строка (=1)** — статус |ExtendedSignerDetails-Status|_ [`Статус <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969547>`_].
 
-:Surname*
+:Surname:
   **Строка (1-60)** — фамилия [`Фамилия <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969507>`_]
 
-
-\*обязательные поля
 
 .. rubric:: Дополнительная информация
 
