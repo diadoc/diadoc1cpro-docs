@@ -4,4 +4,7 @@
 .. toctree::
   :maxdepth: 1
 
+  НовыйРезультатФункции <objects/NovyjRezul'tatFunkcii>
+  ОписаниеПодразделения <objects/OpisaniePodrazdelenija>
+  ПользовательОрганизации <objects/Pol'zovatel' organizacii>
   ТаблицаНоменклатурыДляСопоставления <objects/ТаблицаНоменклатурыДляСопоставления>
