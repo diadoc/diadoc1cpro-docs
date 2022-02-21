@@ -9,7 +9,7 @@
   ДД_Компонента_ПолучитьПустойКонтент <methods/DD_Komponenta_Poluchit'PustojKontent>
   DD_API_ПолучитьПолномочияПодписанта <methods/DD_API_Poluchit'PolnomochijaPodpisanta>
   ДвоичныеДанные_В_Текст <methods/DvoichnyeDannye_V_Tekst>
-  ЗаписатьСопоставлениеДокументаДД_С_Документом_1С <Zapisat'SopostavlenieDokumentaDD_S_Dokumentom_1S>
+  ЗаписатьСопоставлениеДокументаДД_С_Документом_1С <methods/Zapisat'SopostavlenieDokumentaDD_S_Dokumentom_1S>
   ЗаполнитьКонтентXDTOПоСтруктуре <methods/Zapolnit'KontentXDTOPoStrukture>
   ИнициализацияТиповогоМодуля <methods/InicializacijaTipovogoModulja>
   ИспользоватьПодсистемуДиадока <methods/Ispol'zovat'PodsistemuDiadoka>
