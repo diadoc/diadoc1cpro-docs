@@ -5,9 +5,6 @@ TovTorgSellerContent
 
 .. rubric:: Свойства
 
-:AdditionalInfo\*:
-  :doc:`AdditionalInfo <../../objects/551@/AdditionalInfo>` — содержание факта хозяйственной жизни (3) — сведения о факте передачи [`СодФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636971>`_]
-
 :Currency\*:
   **Строка (=3)** — код валюты [`КодОКВ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636967>`_]
 
@@ -31,3 +28,6 @@ TovTorgSellerContent
 
 :RevisionDate\*:
   **Дата (ДД.ММ.ГГГГ)** — дата исправления документа о передаче товара [`ДатаИспрДокПТ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636966>`_]
+
+:TovTorgTransferInfo\*:
+  :doc:`TovTorgTransferInfo <../../objects/551@/TovTorgTransferInfo>` — содержание факта хозяйственной жизни (3) — сведения о факте передачи [`СодФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636971>`_]
