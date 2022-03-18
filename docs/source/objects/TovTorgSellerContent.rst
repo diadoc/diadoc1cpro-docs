@@ -26,6 +26,9 @@ TovTorgSellerContent
 :DocumentNumber\*:
   **Строка (1-255)** — номер документа о передаче товара [`НомДокПТ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610688>`_]
 
+:ExtendedSignerDetails\*:
+  **Коллекция** :doc:`ExtendedSignerDetails <../../objects/551@/ExtendedSignerDetails>` — сведения о лице, подписавшем информацию продавца в электронном виде [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637601>`_]
+
 :RevisionDate\*:
   **Дата (ДД.ММ.ГГГГ)** — дата исправления документа о передаче товара [`ДатаИспрДокПТ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636966>`_]
 

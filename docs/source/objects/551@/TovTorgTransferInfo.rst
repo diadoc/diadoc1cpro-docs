@@ -24,7 +24,7 @@ TovTorgTransferInfo
   **Дата (ДД.ММ.ГГГГ)** — дата отпуска груза [`ДатаОтпуск <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637286>`_]
 
 :Waybills:
-  **Коллекция** :doc:`Waybill <../../objects/551@/Waybill>` — транспортная накладная [`ТранНакл <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637287>`_]
+  **Коллекция** :doc:`Waybills <../../objects/551@/Waybills>` — транспортная накладная [`ТранНакл <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637287>`_]
 
 
 \*обязательные поля
