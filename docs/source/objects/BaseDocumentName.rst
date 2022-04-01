@@ -10,7 +10,7 @@ BaseDocumentName
   **Строка (1-1000)** — дополнительные сведения [`ДопСвОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611318>`_]
 
 :BaseDocumentDate:
-  **Дата (ДД.ММ.ГГГГ)** — дата документа-основания [`ДатаОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611317>`_]. Обязательна при [`НаимОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611315>`_], отличном от значения "Без документа-основания"
+  **Дата (ДД.ММ.ГГГГ)** — дата документа-основания [`ДатаОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611317>`_]. Обязателен при [`НаимОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611315>`_], отличном от значения "Без документа-основания"
 
 :BaseDocumentName\*:
   **Строка (1-255)** — наименование документа-основания [`НаимОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611315>`_]

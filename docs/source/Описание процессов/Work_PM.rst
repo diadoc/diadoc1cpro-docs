@@ -66,6 +66,7 @@
 
   Исходящие: как подготовить пакет документов для отправки <../../proc/pm/Podgotovka_Paketa_Dlya_Otpravki>
   Исходящие: дополнительная обработка исходящих пакетов <../../proc/pm/Dop_Obrabotka_Iskhodyashchikh_Paketov>
+  Исходящие: как создать ТОРГ-2 <../../proc/pm/Sozdanie_TORG-2>
   Входящие: как обработать входящий пакет документов <../../proc/pm/Obrabotka_Vkhodyashchikh_Paketov>
   Интерфейс: как доработать таблицу списка документов <../../proc/pm/Dorabotka_Spiska_Dokumentov>
   Интерфейс: как добавить кнопки в действия <../../proc/pm/Dobavleniye_Knopok>

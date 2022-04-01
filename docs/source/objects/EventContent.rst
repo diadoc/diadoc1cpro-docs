@@ -13,7 +13,7 @@ EventContent
   **Строка (1-2000)** — иные сведения об изменении стоимости [`ИныеСвИзмСтоим <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611306>`_]
 
 :NotificationDate:
-  **Дата (ДД.ММ.ГГГГ)** — дата направления на согласование (дата уведомления) [`ДатаНапр <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611311>`_]. Обязательна, если дата направления на согласование (дата уведомления) не совпадает с [`ДатаКСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=4427257>`_]
+  **Дата (ДД.ММ.ГГГГ)** — дата направления на согласование (дата уведомления) [`ДатаНапр <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611311>`_]. Обязателен, если дата направления на согласование (дата уведомления) не совпадает с [`ДатаКСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=4427257>`_]
 
 :OperationContent\*:
   **Строка (1-255)** — содержание операции [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611309>`_]

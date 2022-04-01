@@ -28,7 +28,7 @@ ExtendedInvoiceCorrectionItem
   **Строка (1-50)** — артикул товара [`АртикулТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611278>`_]. Обязателен при отсутствии [`НаимТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611263>`_], [`ХарактерТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611281>`_] и [`КодТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611277>`_]
 
 :ItemCharact:
-  **Строка (1-1000)** — характеристика/описание товара [`ХарактерТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611281>`_]. Обязательна при отсутствии [`НаимТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611263>`_], [`КодТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611277>`_] и [`АртикулТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611278>`_]
+  **Строка (1-1000)** — характеристика/описание товара [`ХарактерТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611281>`_]. Обязателен при отсутствии [`НаимТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611263>`_], [`КодТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611277>`_] и [`АртикулТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611278>`_]
 
 :ItemKind:
   **Строка (1-10)** — сорт товара [`СортТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611280>`_]
@@ -54,7 +54,7 @@ ExtendedInvoiceCorrectionItem
   **Коллекция** :doc:`InvoiceItemFields <../../objects/InvoiceItemFields>` — поля до изменения
 
 :Product:
-  **Строка (1-1000)** — наименование отгруженных товаров (выполненных работ, оказанных услуг), переданных имущественных прав [`НаимТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611263>`_]. Обязательно при отсутствии [`ХарактерТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611281>`_], [`АртикулТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611278>`_] и [`КодТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611277>`_]
+  **Строка (1-1000)** — наименование отгруженных товаров (выполненных работ, оказанных услуг), переданных имущественных прав [`НаимТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611263>`_]. Обязателен при отсутствии [`ХарактерТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611281>`_], [`АртикулТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611278>`_] и [`КодТов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611277>`_]
 
 :StructedAdditionalInfos:
   **Коллекция** :doc:`StructedAdditionalInfo <../../objects/StructedAdditionalInfo736>` — информационное поле факта хозяйственной жизни 2 [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611270>`_]
