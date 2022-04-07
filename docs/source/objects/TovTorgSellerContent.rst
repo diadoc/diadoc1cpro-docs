@@ -70,3 +70,6 @@ TovTorgSellerContent
 
 :TransferInfo\*:
   :doc:`TovTorgTransferInfo <../../objects/551@/TovTorgTransferInfo>` — сведения о факте передачи [`СодФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636971>`_]
+
+
+\*обязательные поля

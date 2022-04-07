@@ -1,7 +1,7 @@
 TovTorgTransferInfo
 ====================
 
-Содержание факта хозяйственной жизни (3) — сведения о факте передачи `(СодФХЖ3) <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637282>`_
+Содержание факта хозяйственной жизни 3 — сведения о факте передачи `(СодФХЖ3) <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637282>`_
 
 .. rubric:: Свойства
 
