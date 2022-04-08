@@ -9,7 +9,7 @@ ExtendedOrganizationInfo
   **Строка (1-255)** — информация для участника документооборота [`ИнфДляУчаст <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993550>`_]
 
 :Address:
-  **Коллекция** :doc:`AddressInfo <../../objects/AddressInfo736>` — юридический адрес организации [`Адрес <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993551>`_]
+  **Коллекция** :doc:`AddressInfo <../../objects/551@/AddressInfo736>` — юридический адрес организации [`Адрес <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993551>`_]
 
 :BankAccountNumber:
   **Строка (1-20)** — номер банковского счета организации [`НомерСчета <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993552>`_]
