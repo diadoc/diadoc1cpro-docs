@@ -6,7 +6,7 @@ TovTorgSellerContent
 .. rubric:: Свойства
 
 :AdditionalInfoId:
-  :doc:`AdditionalInfoId <../../objects/551@/AdditionalInfoId>` — информационное поле документа о передаче товара, информация покупателя [`ИнфПолФХЖ4 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704759>`_]
+  :doc:`AdditionalInfoId <../../objects/551@/AdditionalInfoId>` — информационное поле документа [`ИнфПолФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994124>`_]
 
 :Buyer\*:
   :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о покупателе [`Покупатель <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704143>`_]
