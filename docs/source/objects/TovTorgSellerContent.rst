@@ -6,16 +6,16 @@ TovTorgSellerContent
 .. rubric:: Свойства
 
 :AdditionalInfoId:
-  :doc:`AdditionalInfoId <../../objects/551@/AdditionalInfoId>` — информационное поле документа [`ИнфПолФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994124>`_]
+  **Структура** :doc:`AdditionalInfoId <../../objects/551@/AdditionalInfoId>` — информационное поле документа [`ИнфПолФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994124>`_]
 
 :Buyer\*:
-  :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о покупателе [`Покупатель <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704143>`_]
+  **Структура** :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о покупателе [`Покупатель <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704143>`_]
 
 :Carrier:
-  :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о перевозчике [`Перевозчик <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704232>`_]
+  **Структура** :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о перевозчике [`Перевозчик <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704232>`_]
 
 :Consignee:
-  :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о грузополучателе [`ГрузПолуч <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704210>`_]
+  **Структура** :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о грузополучателе [`ГрузПолуч <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704210>`_]
 
 :Currency\*:
   **Строка (=3)** — код валюты [`КодОКВ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636967>`_]
@@ -57,19 +57,19 @@ TovTorgSellerContent
   **Число (3)** — номер исправления документа о передаче товара [`НомИспрДокПТ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704569>`_]
 
 :Seller\*:
-  :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о продавце [`Продавец <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704126>`_]
+  **Структура** :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о продавце [`Продавец <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704126>`_]
 
 :Shipper:
-  :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о грузоотправителе [`ГрузОтпр <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704193>`_]
+  **Структура** :doc:`ExtendedOrganizationInfo <../../objects/551@/ExtendedOrganizationInfo>` — сведения о грузоотправителе [`ГрузОтпр <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704193>`_]
 
 :Signers:
   **Коллекция** :doc:`ExtendedSigner <../../objects/551@/ExtendedSigner>` — подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704284>`_]
 
 :Table\*:
-  :doc:`TovTorgTable <../../objects/551@/TovTorgTable>` — сведения об ассортименте, количестве, стоимости и другой информации о товарных позициях [`СодФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704677>`_]
+  **Структура** :doc:`TovTorgTable <../../objects/551@/TovTorgTable>` — сведения об ассортименте, количестве, стоимости и другой информации о товарных позициях [`СодФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704677>`_]
 
 :TransferInfo\*:
-  :doc:`TovTorgTransferInfo <../../objects/551@/TovTorgTransferInfo>` — сведения о факте передачи [`СодФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636971>`_]
+  **Структура** :doc:`TovTorgTransferInfo <../../objects/551@/TovTorgTransferInfo>` — сведения о факте передачи [`СодФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636971>`_]
 
 
 \*обязательные поля

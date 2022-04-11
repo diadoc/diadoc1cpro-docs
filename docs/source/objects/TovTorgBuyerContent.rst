@@ -6,7 +6,7 @@ TovTorgBuyerContent
 .. rubric:: Свойства
 
 :AdditionalInfoId:
-  :doc:`AdditionalInfoId <../../objects/551@/AdditionalInfoId>` — информационное поле документа [`ИнфПолФХЖ4 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994123>`_]
+  **Структура** :doc:`AdditionalInfoId <../../objects/551@/AdditionalInfoId>` — информационное поле документа [`ИнфПолФХЖ4 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994123>`_]
 
 :DocumentCreator\*:
   **Строка (1-1000)** — наименование экономического субъекта - составителя информации покупателя [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994125>`_]
