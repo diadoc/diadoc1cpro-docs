@@ -12,10 +12,10 @@ TovTorgItem
   **Число (12.3)** — масса с упаковкой [`Брутто <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993860>`_]
 
 :ItemAccountCredit:
-  **Строка (=9)** — корреспондирующие счета: кредит [`КорСчКредит <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993857>`_]
+  **Строка (=9)** — кредит корреспондирующих счетов [`КорСчКредит <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993857>`_]
 
 :ItemAccountDebit:
-  **Строка (=9)** — корреспондирующие счета: дебет [`КорСчДебет <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993856>`_]
+  **Строка (=9)** — дебет корреспондирующих счетов [`КорСчДебет <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993856>`_]
 
 :ItemToRelease:
   **Число (26.11)** — количество, которое надлежит отпустить [`НадлОтп <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993853>`_]
@@ -45,7 +45,7 @@ TovTorgItem
   **Строка (1-10)** — сорт товара [`СортТов <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993812>`_]
 
 :StructedAdditionalInfos:
-  **Коллекция** :doc:`StructedAdditionalInfoId <../../objects/StructedAdditionalInfoId>` — информационное поле факта хозяйственной жизни 2 [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993807>`_]
+  **Коллекция** :doc:`AdditionalInfoItem <../../objects/551@/AdditionalInfoItem>` — информационное поле факта хозяйственной жизни 2 [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993807>`_]
 
 :Subtotal:
  **Число (19.2)** — стоимость с учетом налога на добавленную стоимость [`СтУчНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993806>`__]
@@ -54,19 +54,22 @@ TovTorgItem
   **Число (19.2)** — стоимость без учета налога на добавленную стоимость [`СтБезНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993805>`_]. Обязателен при отсутствии `СтУчНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993806>`__
   
 :TaxRate:
-  **Строка (1-35)** — налоговая ставка, принимает одно из значений [`НалСт <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993804>`_]
+  **Строка (1-35)** — налоговая ставка [`НалСт <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993804>`_]
 
 :Unit\*:
   **Строка (3-4)** — код единицы измерения [`ОКЕИ_Тов <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993803>`__]
 
 :UnitName\*:
-  **Строка (1-255)** — наименование единицы измерения [`НаимЕдИзм <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993802>`_]
+  **Строка (1-1000)** — наименование единицы измерения [`НаимЕдИзм <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993802>`_]
   
 :Vat:
   **Число (19.2)** — сумма налога на добавленную стоимость [`СумНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993801>`_]
 
 :VendorCode:
   **Строка (1-50)** — артикул товара [`АртикулТов <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993866>`_]. Обязателен при отсутствии всех перечисленных элементов: `ХарактерТов <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993862>`_, `НаимТов <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993798>`_ и `КодТов <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993811>`_
+
+:СлужебнаяИнформация:
+  **Структура с типом элементов Ссылка1С** — ссылки на следующие записи в системе 1С: Номенклатура, Характеристика, СтранаПроисхождения, Серия, Упаковка, УпаковкаДоИзменения, СтавкаНДС, СтавкаНДСДоИзменения, ДокументОтгрузки, НомерГТД, ЕдиницаИзмерения, ЕдиницаИзмеренияДоИзменения
 
 
 \*обязательные поля

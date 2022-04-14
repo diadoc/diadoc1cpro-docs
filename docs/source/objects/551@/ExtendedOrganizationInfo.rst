@@ -5,11 +5,11 @@ ExtendedOrganizationInfo
 
 .. rubric:: Свойства
 
-:OrganizationAdditionalInfo:
+:AdditionalInfo:
   **Строка (1-255)** — информация для участника документооборота [`ИнфДляУчаст <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993550>`_]
 
 :Address:
-  **Коллекция** :doc:`AddressInfo <../../objects/551@/AddressInfo736>` — юридический адрес организации [`Адрес <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993551>`_]
+  **Структура** :doc:`Address <../../objects/551@/Address>` — юридический адрес организации [`Адрес <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993551>`_]
 
 :BankAccountNumber:
   **Строка (1-20)** — номер банковского счета организации [`НомерСчета <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993552>`_]
@@ -48,16 +48,16 @@ ExtendedOrganizationInfo
   **Строка (=9)** — код причины постановки на учет организации [`КПП <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993567>`_]
 
 :LegalEntityId:
-  **Строка (1-255)** — идентификатор юридического лица [`Идентиф <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993570>`_]
+  **Строка (1-50)** — идентификатор юридического лица [`Идентиф <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993570>`_]
 
 :Name\*:
   **Строка** — наименование организации. Для индивидуального предпринимателя наименование задается в формате "Фамилия Имя Отчество" [`НаимОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993571>`_]/[`ФИО <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993573>`_]
 
 :Okdp:
-  **Строка (1-7)** — код основного вида деятельности по ОКДП [`ОКДП <https://normativ.kontur.ru/document?moduleId=1&documentId=261859&rangeId=2966188>`_]
+  **Строка (1-7)** — код основного вида деятельности [`ОКДП <https://normativ.kontur.ru/document?moduleId=1&documentId=261859&rangeId=2966188>`_]
 
 :Okopf:
-  **Строка (=2)** — код организационно — правовой формы по ОКОПФ [`ОКОПФ <https://normativ.kontur.ru/document?moduleId=1&documentId=261859&rangeId=2966193>`_]
+  **Строка (=2)** — код организационно — правовой формы [`ОКОПФ <https://normativ.kontur.ru/document?moduleId=1&documentId=261859&rangeId=2966193>`_]
 
 :Okpo:
   **Строка (1-10)** — код в общероссийском классификаторе предприятий и организаций [`ОКПО <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993574>`_]
@@ -70,6 +70,9 @@ ExtendedOrganizationInfo
 
 :Type\*:
   **Строка, чтение/запись** — тип организации  (|ExtendedOrganizationInfo-Type|_)
+
+:Ссылка:
+  **Ссылка 1С** — ссылка на запись в системе 1С
 
 
 \*обязательные поля

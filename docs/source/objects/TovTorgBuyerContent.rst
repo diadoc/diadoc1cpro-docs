@@ -5,19 +5,31 @@ TovTorgBuyerContent
 
 .. rubric:: Свойства
 
-:AdditionalInfoId:
-  **Структура** :doc:`AdditionalInfoId <../../objects/551@/AdditionalInfoId>` — информационное поле документа [`ИнфПолФХЖ4 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994123>`_]
+:AcceptanceDate:
+  **Дата (ДД.ММ.ГГГГ)** — дата приемки результатов [`ДатаПрием <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995643>`_]. Обязателен, если дата приемки результатов работ не совпадает с датой составления документа
+
+:AdditionalInfo:
+  **Структура** :doc:`AdditionalInfoId <../../objects/551@/AdditionalInfoId>` — информация покупателя [`ИнфПолФХЖ4 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995853>`_]
 
 :DocumentCreator\*:
-  **Строка (1-1000)** — наименование экономического субъекта - составителя информации покупателя [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994125>`_]
+  **Строка (1-1000)** — наименование составителя информации покупателя [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994125>`_]
 
 :DocumentCreatorBase:
   **Строка (1-120)** — основание, по которому экономический субъект является составителем информации покупателя [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994126>`_]. Обязателен, если составитель информации покупателя не является покупателем
 
-:OperationType:
-  **Строка (1-255)** — вид операции [`ВидОперации <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994127>`_]
+:Employee:
+  **Структура** :doc:`Employee <../../objects/551@/Employee>` — сведения о лице, передавшем товар [`СвЛицОтпГруз <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637285>`_]. Обязателен, если лицо, отпустившее груз, не совпадает с лицом, ответственным за оформление факта хозяйственной жизни
 
-:Signers:
+:OperationCode:
+  **Строка (1-255)** — вид операции [`ВидОперации <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995645>`_]
+
+:OperationContent\*:
+  **Строка (1-1000)** — содержание операции [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995644>`_]
+
+:OtherIssuer\*:
+  **Структура** :doc:`OtherIssuer <../../objects/551@/OtherIssuer>` — иное лицо [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995887>`_]
+
+:Signers\*:
   **Коллекция** :doc:`ExtendedSigner <../../objects/551@/ExtendedSigner>` — подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994128>`_]
 
 

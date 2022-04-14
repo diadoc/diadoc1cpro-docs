@@ -1,4 +1,4 @@
-StructedAdditionalInfoId
+AdditionalInfoItem
 ==========================
 
 Текстовая информация `(ТекстИнфТип) <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637301>`_

@@ -5,14 +5,11 @@ TovTorgTransferInfo
 
 .. rubric:: Свойства
 
-:AdditionalInfos:
-  **Коллекция** :doc:`AdditionalInfos <../../objects/551@/AdditionalInfos>` — информационное поле факта хозяйственной жизни 3 [`ИнфПолФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637283>`_]
-
 :Attachment:
-  **Строка (1-255)** — приложение (паспорта, сертификаты и тому подобное) — количество листов [`КолПрил <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637284>`_]
+  **Строка (1-255)** — количество листов приложения: паспорт, сертификат и т.д. [`КолПрил <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637284>`_]
 
 :Employee:
-  :doc:`Employee <../../objects/551@/Employee>` — сведения о лице, передавшем товар [`СвЛицОтпГруз <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637285>`_]. Обязательны, если лицо, отпустившее груз, не совпадает с лицом, ответственным за оформление факта хозяйственной жизни
+  **Структура** :doc:`Employee <../../objects/551@/Employee>` — сведения о лице, передавшем товар [`СвЛицОтпГруз <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637285>`_]. Обязателен, если лицо, отпустившее груз, не совпадает с лицом, ответственным за оформление факта хозяйственной жизни
 
 :OperationInfo\*:
   **Строка (1-255)** — содержание операции [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637288>`_]
@@ -20,8 +17,11 @@ TovTorgTransferInfo
 :OtherIssuer\*:
   :doc:`OtherIssuer <../../objects/551@/OtherIssuer>` — иное лицо [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637292>`_]
 
+:StructedAdditionalInfos:
+  **Коллекция** :doc:`AdditionalInfoItem <../../objects/551@/AdditionalInfoItem>` — информационное поле факта хозяйственной жизни 3 [`ИнфПолФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637283>`_]
+
 :TransferDate:
-  **Дата (ДД.ММ.ГГГГ)** — дата отпуска груза [`ДатаОтпуск <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637286>`_]
+  **Дата (ДД.ММ.ГГГГ)** — дата отпуска груза [`ДатаОтпуск <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637286>`_]. Обязателен, если `ДатаОтпуск <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637286>`_ не совпадает с `ДатаДокПТ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995900>`_
 
 :Waybills:
   **Коллекция** :doc:`Waybills <../../objects/551@/Waybills>` — транспортная накладная [`ТранНакл <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637287>`_]
