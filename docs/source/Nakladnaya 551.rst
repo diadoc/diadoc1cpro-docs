@@ -17,10 +17,8 @@
 	ExtendedOrganizationInfo <objects/551@/ExtendedOrganizationInfo>
 	ExtendedSigner <objects/551@/ExtendedSigner>
 	ExtendedSignerDetails <objects/551@/ExtendedSignerDetails>
-    ForeignAddress <objects/551@/ForeignAddress>
 	GroundInfo <objects/551@/GroundInfo>
 	OtherIssuer <objects/551@/OtherIssuer>
-	RussianAddress <objects/551@/RussianAddress>
     TovTorgItem <objects/551@/TovTorgItem>
 	TovTorgTable <objects/551@/TovTorgTable>
 	TovTorgTransferInfo <objects/551@/TovTorgTransferInfo>
