@@ -6,7 +6,7 @@ Act552SellerContent
 .. rubric:: Свойства
 
 :AdditionalInfo:
-  **Структура** :doc:`AdditionalInfoId  <../../objects/552@/AdditionalInfoId >` — Информационное поле факта хозяйственной жизни 1 [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994970>`_]
+  **Структура** :doc:`AdditionalInfoId  <../../objects/552@/AdditionalInfoId >` — информационное поле факта хозяйственной жизни 1 [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994970>`_]
 
 :Buyer\*:
   **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/552@/ExtendedOrganizationInfo>` — заказчик [`Заказчик <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994971>`_]
