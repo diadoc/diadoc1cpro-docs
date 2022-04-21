@@ -45,7 +45,7 @@ TovTorgSellerContent
   **Коллекция** :doc:`GroundInfo <../../objects/551@/GroundInfo>` — основание факта хозяйственной жизни [`Основание <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704508>`_]
 
 :OperationType:
-  **Строка (1-255)** — вид операции для определения порядка использования информации документа у продавца [`ВидОперации <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704630>`_]
+  **Строка (1-255)** — вид операции, определяющий в каком порядке использовать информацию документа у продавца [`ВидОперации <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704630>`_]
 
 :RevisionDate\*:
   **Дата (ДД.ММ.ГГГГ)** — дата исправления документа о передаче товара [`ДатаИспрДокПТ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636966>`_]
