@@ -24,7 +24,7 @@ TovTorgSellerContent
   **Число (10.4)** — курс валюты [`КурсВал <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636969>`_]
 
 :DocumentCreator\*:
-  **Строка (1-1000)** — наименование составителя информации продавца [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610491>`_]
+  **Строка (1-1000)** — составитель информации продавца [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610491>`_]
 
 :DocumentCreatorBase:
   **Строка (1-120)** — основание, по которому экономический субъект является составителем информации продавца [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610499>`_]. Обязателен, если составитель информации продавца не является продавцом
@@ -45,7 +45,7 @@ TovTorgSellerContent
   **Коллекция** :doc:`GroundInfo <../../objects/551@/GroundInfo>` — основание факта хозяйственной жизни [`Основание <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704508>`_]
 
 :OperationType:
-  **Строка (1-255)** — вид операции [`ВидОперации <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704630>`_]
+  **Строка (1-255)** — вид операции для определения порядка использования информации документа у продавца [`ВидОперации <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704630>`_]
 
 :RevisionDate\*:
   **Дата (ДД.ММ.ГГГГ)** — дата исправления документа о передаче товара [`ДатаИспрДокПТ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636966>`_]
@@ -66,7 +66,7 @@ TovTorgSellerContent
   **Структура** :doc:`TovTorgTable <../../objects/551@/TovTorgTable>` — сведения об ассортименте, количестве, стоимости и другой информации о товарных позициях [`СодФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5704677>`_]
 
 :TransferInfo\*:
-  **Структура** :doc:`TovTorgTransferInfo <../../objects/551@/TovTorgTransferInfo>` — сведения о факте передачи [`СодФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636971>`_]
+  **Структура** :doc:`TovTorgTransferInfo <../../objects/551@/TovTorgTransferInfo>` — сведения о факте передачи товара [`СодФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636971>`_]
 
 
 \*обязательные поля

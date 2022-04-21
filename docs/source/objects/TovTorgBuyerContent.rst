@@ -6,13 +6,13 @@ TovTorgBuyerContent
 .. rubric:: Свойства
 
 :AcceptanceDate:
-  **Дата (ДД.ММ.ГГГГ)** — дата приемки результатов [`ДатаПрием <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995643>`_]. Обязателен, если дата приемки результатов работ не совпадает с датой составления документа
+  **Дата (ДД.ММ.ГГГГ)** — дата принятия товара [`ДатаПолуч <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5997409>`_]. Обязателен, если дата получения груза не совпадает с датой составления документа
 
 :AdditionalInfo:
   **Структура** :doc:`AdditionalInfoId <../../objects/551@/AdditionalInfoId>` — информация покупателя [`ИнфПолФХЖ4 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995853>`_]
 
 :DocumentCreator\*:
-  **Строка (1-1000)** — наименование составителя информации покупателя [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994125>`_]
+  **Строка (1-1000)** — составитель информации покупателя [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994125>`_]
 
 :DocumentCreatorBase:
   **Строка (1-120)** — основание, по которому экономический субъект является составителем информации покупателя [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994126>`_]. Обязателен, если составитель информации покупателя не является покупателем
@@ -27,7 +27,7 @@ TovTorgBuyerContent
   **Строка (1-1000)** — содержание операции [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995644>`_]
 
 :OtherIssuer\*:
-  **Структура** :doc:`OtherIssuer <../../objects/551@/OtherIssuer>` — иное лицо [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995887>`_]
+  **Структура** :doc:`OtherIssuer <../../objects/551@/OtherIssuer>` — иное лицо, которому доверена передача груза [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995887>`_]
 
 :Signers\*:
   **Коллекция** :doc:`ExtendedSigner <../../objects/551@/ExtendedSigner>` — подписанты документа [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994128>`_]
