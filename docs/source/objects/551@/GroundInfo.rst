@@ -6,7 +6,7 @@ GroundInfo
 .. rubric:: Свойства
 
 :Date:
-  **Дата (ДД.ММ.ГГГГ)** — дата документа — основания [`ДатаОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5889837>`_]. Обязателен при `НаимОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5889813>`_, отличном от прочерка
+  **Дата (ДД.ММ.ГГГГ)** — дата документа — основания [`ДатаОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5889837>`_]. Обязателен при наименование документа — основания, отличном от прочерка
 
 :Info:
   **Строка (0-1000)** — дополнительные сведения [`ДопСвОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5889845>`_]

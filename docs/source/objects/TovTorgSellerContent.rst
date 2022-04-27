@@ -1,7 +1,7 @@
 TovTorgSellerContent
 =======================
 
-Содержание титула продавца файла обмена о передаче товара в формате приказа `ММВ-7-10/551@ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636962>`_
+Содержание титула продавца *Файла обмена документа о передаче товара* в формате приказа `ММВ-7-10/551@ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636962>`_
 
 .. rubric:: Свойства
 
@@ -24,16 +24,16 @@ TovTorgSellerContent
   **Число (10.4)** — курс валюты [`КурсВал <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636969>`_]
 
 :DocumentCreator\*:
-  **Строка (1-1000)** — составитель информации продавца [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610491>`_]
+  **Строка (1-1000)** — составитель документа [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610491>`_]
 
 :DocumentCreatorBase:
-  **Строка (1-120)** — основание, по которому экономический субъект является составителем информации продавца [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610499>`_]. Обязателен, если составитель информации продавца не является продавцом
+  **Строка (1-120)** — основание, по которому экономический субъект является составителем документа [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610499>`_]. Обязателен, если составитель информации продавца не является продавцом
 
 :DocumentDate\*:
   **Дата (ДД.ММ.ГГГГ)** — дата составления документа о передаче товара [`ДатаДокПТ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610684>`_]
 
 :DocumentName\*:
-  **Строка (1-255)** — наименование первичного документа, определенное организацией [`НаимДокОпр <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610681>`_]
+  **Строка (1-255)** — наименование первичного документа, согласованное сторонами сделки [`НаимДокОпр <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610681>`_]
 
 :DocumentNumber:
   **Строка (1-255)** — номер документа о передаче товара [`НомДокПТ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5610688>`_]

@@ -9,7 +9,7 @@ ExtendedSignerDetails
   **Строка (1-60)** — имя [`Имя <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637297>`_]
 
 :Inn\*:
-  **Строка (10-12)** — ИНН организации [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993565>`_]/ [`ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993564>`_]
+  **Строка (10-12)** — ИНН организации или индивидуального предпринимателя [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993565>`_]/ [`ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993564>`_]
 
 :JobTitle\*:
   **Строка (1-128)** — должность [`Должность <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995648>`_]
@@ -18,7 +18,7 @@ ExtendedSignerDetails
   **Строка (1-128)** — наименование организации [`НаимОргПол <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995649>`_]
 
 :OrganizationsPowerBase:
-  **Строка (1-255)** — основание полномочий организации [`ОснПолнОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5638122>`_]. Обязателен для `Статус <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5638117>`_ = 3
+  **Строка (1-255)** — основание полномочий организации [`ОснПолнОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5638122>`_]. Обязателен для работника иной уполномоченной организации
 
 :Patronymic:
   **Строка (1-60)** — отчество [`Отчество <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637588>`_]

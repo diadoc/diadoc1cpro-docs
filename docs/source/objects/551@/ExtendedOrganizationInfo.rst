@@ -42,7 +42,7 @@ ExtendedOrganizationInfo
   **Строка (1-100)** — реквизиты свидетельства о государственной регистрации физического лица в качестве индивидуального предпринимателя [`СвГосРегИП <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993563>`_]
 
 :Inn\*:
-  **Строка (10-12)** — ИНН организации [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993565>`_]/ [`ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993564>`_]
+  **Строка (10-12)** — ИНН организации или индивидуального предпринимателя [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993565>`_]/ [`ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993564>`_]
 
 :Kpp:
   **Строка (=9)** — код причины постановки на учет организации [`КПП <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993567>`_]
@@ -51,7 +51,7 @@ ExtendedOrganizationInfo
   **Строка (1-50)** — идентификатор юридического лица [`Идентиф <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993570>`_]
 
 :Name\*:
-  **Строка** — наименование организации. Для индивидуального предпринимателя наименование задается в формате "Фамилия Имя Отчество" [`НаимОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993571>`_]/[`ФИО <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993573>`_]
+  **Строка** — наименование организации или ФИО индивидуального предпринимателя [`НаимОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993571>`_]/[`ФИО <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993573>`_]
 
 :Okdp:
   **Строка (1-7)** — код основного вида деятельности [`ОКДП <https://normativ.kontur.ru/document?moduleId=1&documentId=261859&rangeId=2966188>`_]

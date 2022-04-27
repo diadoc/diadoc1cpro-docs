@@ -15,7 +15,7 @@ TovTorgTransferInfo
   **Строка (1-255)** — содержание операции [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637288>`_]
 
 :OtherIssuer\*:
-  :doc:`OtherIssuer <../../objects/551@/OtherIssuer>` — иное лицо [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637292>`_]
+ **Структура** :doc:`OtherIssuer <../../objects/551@/OtherIssuer>` — представитель организации или физическое лицо, которому доверена передача товара [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637292>`_]
 
 :StructedAdditionalInfos:
   **Коллекция** :doc:`AdditionalInfoItem <../../objects/551@/AdditionalInfoItem>` — информационное поле факта хозяйственной жизни 3 [`ИнфПолФХЖ3 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637283>`_]
