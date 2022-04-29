@@ -37,7 +37,7 @@ OtherIssuer
 .. rubric:: Свойства
 
 :EmployeeInfo:
-  **Строка (1-255)** — иные сведения, идентифицирующие физическое лицо [`ИныеСвед <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=6000302>`_]
+  **Строка (1-255)** — иные сведения, идентифицирующие физическое лицо [`ИныеСвед <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=6000302>`__]
 
 :FirstName\*:
   **Строка (1-60)** — имя [`Имя <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637586>`_]

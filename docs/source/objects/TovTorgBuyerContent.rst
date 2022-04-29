@@ -12,7 +12,7 @@ TovTorgBuyerContent
   **Структура** :doc:`AdditionalInfoId <../../objects/551@/AdditionalInfoId>` — информация покупателя [`ИнфПолФХЖ4 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995853>`_]
 
 :DocumentCreator\*:
-  **Строка (1-1000)** — составитель информации покупателя [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994125>`_]
+  **Строка (1-1000)** —  составитель файла информации покупателя [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994125>`_]
 
 :DocumentCreatorBase:
   **Строка (1-120)** — основание, по которому экономический субъект является составителем информации покупателя [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5994126>`_]. Обязателен, если составитель информации покупателя не является покупателем
