@@ -1,7 +1,7 @@
 AdditionalInfoId
 ================
 
-Информационное поле факта хозяйственной жизни 1 `(ИнфПолФХЖ1) <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5930676>`_
+Информационное поле факта хозяйственной жизни (1) `(ИнфПолФХЖ1) <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5930676>`_
 
 .. rubric:: Свойства
 

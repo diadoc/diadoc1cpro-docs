@@ -45,7 +45,7 @@ TovTorgItem
   **Строка (1-10)** — сорт товара [`СортТов <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993812>`_]
 
 :StructedAdditionalInfos:
-  **Коллекция** :doc:`AdditionalInfoItem <../../objects/551@/AdditionalInfoItem>` — информационное поле факта хозяйственной жизни 2 [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993807>`_]
+  **Коллекция** :doc:`AdditionalInfoItem <../../objects/551@/AdditionalInfoItem>` — информационное поле факта хозяйственной жизни (2) [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993807>`_]
 
 :Subtotal:
  **Число (19.2)** — стоимость с учетом НДС [`СтУчНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993806>`__]

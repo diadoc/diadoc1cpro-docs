@@ -21,7 +21,7 @@ TovTorgBuyerContent
   **Структура** :doc:`Employee <../../objects/551@/Employee>` — сведения о лице, передавшем товар [`СвЛицОтпГруз <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637285>`_]. Обязателен, если лицо, отпустившее груз, не совпадает с лицом, ответственным за оформление факта хозяйственной жизни
 
 :OperationCode:
-  **Строка (1-255)** — вид операции [`ВидОперации <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995645>`_]
+  **Строка (1-255)** — вид операции, определяющий в каком порядке использовать информацию документа у продавца [`ВидОперации <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995645>`_]
 
 :OperationContent\*:
   **Строка (1-1000)** — содержание операции [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995644>`_]
