@@ -1,5 +1,5 @@
- ExtendedOrganizationInfo
- ============================
+ExtendedOrganizationInfo
+============================
 
  Сведения об участнике факта хозяйственной жизни `(УчастникТип) <https://normativ.kontur.ru/document?moduleId=1&documentId=348230&rangeId=5593348>`_
 
