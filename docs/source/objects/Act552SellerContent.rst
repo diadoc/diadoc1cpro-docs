@@ -6,7 +6,7 @@ Act552SellerContent
 .. rubric:: Свойства
 
 :AdditionalInfo:
-  **Структура** :doc:`AdditionalInfoId  <../../objects/552@/AdditionalInfoId >` — информационное поле факта хозяйственной жизни 1 [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994970>`_]
+  **Структура** :doc:`AdditionalInfoId <../../objects/552@/AdditionalInfoId>` — информационное поле факта хозяйственной жизни 1 [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994970>`_]
 
 :Buyer\*:
   **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/552@/ExtendedOrganizationInfo>` — заказчик [`Заказчик <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994971>`_]
@@ -21,7 +21,7 @@ Act552SellerContent
   **Строка (1-1000)** — наименование составителя информации исполнителя [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994975>`_]
 
 :DocumentCreatorBase:
-  **Строка (1-120)** — основание, по которому организация является составителем информации исполнителя [`ОснДоверОргСост https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994976>`_]. Обязателен, если составитель информации исполнителя не является исполнителем
+  **Строка (1-120)** — основание, по которому организация является составителем информации исполнителя [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994976>`_]. Обязателен, если составитель информации исполнителя не является исполнителем
 
 :DocumentDate\*:
   **Дата (ДД.ММ.ГГГГ)** — дата составления документа о передаче результатов работ [`ДатаДокПРУ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995187>`_]

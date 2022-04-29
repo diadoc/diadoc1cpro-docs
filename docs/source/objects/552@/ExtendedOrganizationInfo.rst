@@ -59,13 +59,13 @@ ExtendedOrganizationInfo
 
 \*обязательные поля
 
-.. rubric:: Дополнительная информация
+.. rubric:: Type
 
 .. |ExtendedOrganizationInfo_Torg2-Type| replace:: возможные значения
 .. _ExtendedOrganizationInfo_Torg2-Type:
 
 ===================== ===========================================================================================================================
-Значение *Type*       Описание
+Значение              Описание
 ===================== ===========================================================================================================================
 ForeignEntity         Сведения об иностранной организации [`ИнОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998110>`_]
 IndividualEntity      Сведения об индивидуальном предпринимателе [`СвИП <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998108>`_]

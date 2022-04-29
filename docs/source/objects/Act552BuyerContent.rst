@@ -7,7 +7,7 @@ Act552BuyerContent
 
 
 :AdditionalInfo:
-  **Структура** :doc:`AdditionalInfoId  <../../objects/552@/AdditionalInfoId >` — информационное поле факта хозяйственной жизни 1 [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000869>`_]
+  **Структура** :doc:`AdditionalInfoId <../../objects/552@/AdditionalInfoId>` — информационное поле факта хозяйственной жизни 1 [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000869>`_]
 
 :AcceptanceDate:
   **Дата (ДД.ММ.ГГГГ)** — дата приемки результатов работ [`ДатаПрием <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000857>`_]. Обязателен, если дата приемки результатов работ не совпадает с датой составления документа
