@@ -1,12 +1,12 @@
 Act552SellerContent
 ====================
 
-Содержание титула продавца *Акта о выполнении работ* в формате приказа `ММВ-7-10/552@ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994969>`_
+Содержание титула исполнителя *Акта о выполнении работ* в формате приказа `ММВ-7-10/552@ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994969>`_
 
 .. rubric:: Свойства
 
 :AdditionalInfo:
-  **Структура** :doc:`AdditionalInfoId <../../objects/552@/AdditionalInfoId>` — информационное поле факта хозяйственной жизни 1 [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994970>`_]
+  **Структура** :doc:`AdditionalInfoId <../../objects/552@/AdditionalInfoId>` — информационное поле факта хозяйственной жизни (1) [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6001004>`_]
 
 :Buyer\*:
   **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/552@/ExtendedOrganizationInfo>` — заказчик [`Заказчик <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994971>`_]
@@ -18,7 +18,7 @@ Act552SellerContent
   **Число (10.4)** — курс валюты [`КурсВал <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994973>`_]
 
 :DocumentCreator\*:
-  **Строка (1-1000)** — наименование составителя информации исполнителя [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994975>`_]
+  **Строка (1-1000)** — составитель файла информации исполнителя [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994975>`_]
 
 :DocumentCreatorBase:
   **Строка (1-120)** — основание, по которому организация является составителем информации исполнителя [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5994976>`_]. Обязателен, если составитель информации исполнителя не является исполнителем
@@ -29,7 +29,7 @@ Act552SellerContent
 :DocumentName\*:
   **Строка (1-255)** — наименование документа, определенное организацией [`НаимДокОпр <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995190>`_]
 
-:DocumentNumber\*:
+:DocumentNumber:
   **Строка (1-255)** — номер документа о передаче результатов работ [`НомДокПРУ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995189>`_]
 
 :GovernmentContractInfo:
@@ -57,7 +57,7 @@ Act552SellerContent
   **Коллекция** :doc:`ExtendedSigner <../../objects/552@/ExtendedSigner>` — сведения о лице, подписавшем информацию исполнителя в электронном виде [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995212>`_]
 
 :TransferInfo\*:
-  **Коллекция** :doc:`Act552TransferInfo <../../objects/552@/Act552TransferInfo>` — содержание факта хозяйственной жизни 2 — сведения о передаче результатов работ [`СодФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995213>`_]
+  **Коллекция** :doc:`Act552TransferInfo <../../objects/552@/Act552TransferInfo>` — содержание факта хозяйственной жизни (2) — сведения о передаче результатов работ [`СодФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995213>`_]
 
 :Type:
   **Строка** — тип документа, константа

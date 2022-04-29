@@ -36,7 +36,7 @@ Address
   **Строка (=2)** — код региона РФ [`КодРегион <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000832>`_]
 
 :Street:
-  **Строка (1-50)** — улица [`Улица <hhttps://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000833>`_]
+  **Строка (1-50)** — улица [`Улица <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6001013>`_]
 
 :Territory:
   **Строка (1-50)** — район [`Район <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000834>`_]

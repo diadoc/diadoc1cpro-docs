@@ -14,7 +14,7 @@ Act552WorkDescription
 :StartingDate:
   **Дата (ДД.ММ.ГГГГ)** — начало периода выполнения работ [`НачРабот <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000848>`_]
 
-:Total:
+:Total\*:
   **Число (19.2)** — стоимость с учетом НДС  [`СтУчНДСИт <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000849>`_]
 
 :TotalVat:

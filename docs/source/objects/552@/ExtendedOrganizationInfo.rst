@@ -1,7 +1,7 @@
 ExtendedOrganizationInfo
 ============================
 
- Сведения об участнике факта хозяйственной жизни `(УчастникТип) <https://normativ.kontur.ru/document?moduleId=1&documentId=348230&rangeId=5593348>`_
+Сведения об участнике факта хозяйственной жизни `(УчастникТип) <https://normativ.kontur.ru/document?moduleId=1&documentId=348230&rangeId=5593348>`_
 
 .. rubric:: Свойства
 
@@ -33,7 +33,7 @@ ExtendedOrganizationInfo
   **Строка (10-12)** — ИНН организации [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998095>`_ / `ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998094>`_]
 
 :Kpp:
-  **Строка (=9)** — КПП организации [`КПП <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998096>`_]
+  **Строка (=9)** — код причины постановки на учет организации [`КПП <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998096>`_]
 
 :LegalEntityId:
   **Строка (1-50)** — идентификатор юридического лица [`Идентиф <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998098>`_]
@@ -51,7 +51,7 @@ ExtendedOrganizationInfo
   **Строка (1-255)** — иные сведения, идентифицирующие организацию [`ИныеСвед <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998106>`_]
 
 :OrgType:
-  **Строка** — тип организации  (|ExtendedOrganizationInfo_Torg2-Type|_)
+  **Строка** — тип организации. Возможные значения см. ниже.
 
 :Phone:
   **Строка (1-255)** — номер контактного телефона, факс  [`Тлф <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998092>`_]

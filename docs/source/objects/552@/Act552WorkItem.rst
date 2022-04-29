@@ -9,13 +9,13 @@ Act552WorkItem
   **Строка (1-10000)** — описание работы [`Описание <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000944>`_]. Обязателен, если присутствует `НаимРабот <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000947>`_
 
 :ItemAccountCredit:
-  **Строка (=9)** — кредит корреспондирующих счетов [`КорСчКредит <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000946>`_]
+  **Строка (9)** — кредит корреспондирующих счетов [`КорСчКредит <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000946>`_]
 
 :ItemAccountDebit:
-  **Строка (=9)** — дебет корреспондирующих счетов [`КорСчДебет <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000945>`_]
+  **Строка (9)** — дебет корреспондирующих счетов [`КорСчДебет <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000945>`_]
 
 :Name:
-  **Строка (1-1000)** — наименование работ [`НаимРабот <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000947>`_]. Обязателен, если отсутствует `Описание <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000944>`_]
+  **Строка (1-1000)** — наименование работ [`НаимРабот <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000947>`_]. Обязателен, если отсутствует `Описание <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000944>`_
 
 :Price:
   **Число (26.11)** — цена  [`Цена <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000949>`_]
