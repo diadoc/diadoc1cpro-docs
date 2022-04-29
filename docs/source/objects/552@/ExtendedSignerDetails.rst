@@ -6,7 +6,7 @@ ExtendedSignerDetails
 .. rubric:: Свойства
 
 :SignerPowers\*:
-  **Строка (=1** — область полномочий [`ОблПолн <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000461>`_] (|SignerDetails-SignerPowers|_)
+  **Строка (=1** — область полномочий [`ОблПолн <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000461>`_]. Возможные значения см. ниже.
 
 :SignerOrgPowersBase:
   **Строка (1-255)** — основание полномочий организации [`ОснПолнОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000464>`_]. Обязателен, если подписывает работник иной уполномоченной организации
@@ -15,10 +15,10 @@ ExtendedSignerDetails
   **Строка (1-255)** — основание полномочий подписанта [`ОснПолнПодп <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000463>`_]
 
 :SignerStatus\*:
-  **Строка (=1)** — статус [`Статус <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000462>`_] (|SignerDetails-SignerStatus|_)
+  **Строка (=1)** — статус [`Статус <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000462>`_]. Возможные значения см. ниже.
 
 :SignerType\*:
-  **Строка** — тип подписанта (|SignerDetails-SignerType|_)
+  **Строка** — тип подписанта. Возможные значения см. ниже.
   
 
 \*обязательные поля
