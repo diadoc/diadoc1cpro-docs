@@ -6,7 +6,7 @@ ExtendedOrganizationInfo
 .. rubric:: Свойства
 
 :AdditionalInfo:
-  **Строка (1-255)** — информация для участника документооборота [`ИнфДляУчаст <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993550>`_]
+  **Строка (1-255)** — дополнительная информация, помогающая обработать данные на компьютере [`ИнфДляУчаст <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993550>`_]
 
 :Address:
   **Структура** :doc:`Address <../../objects/551@/Address>` — юридический адрес организации [`Адрес <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993551>`_]

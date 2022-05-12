@@ -1,7 +1,7 @@
 TovTorgSellerContent
 =======================
 
-Содержание титула продавца *Файла обмена документа о передаче товара* в формате приказа `ММВ-7-10/551@ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636962>`_
+Содержание титула продавца *Документа о передаче товара* в формате приказа `ММВ-7-10/551@ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5636962>`_
 
 .. rubric:: Свойства
 
