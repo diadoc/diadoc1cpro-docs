@@ -6,7 +6,7 @@ Act552BuyerContent
 .. rubric:: Свойства
 
 
-:AdditionalInfo:
+:AdditionalInfoId:
   **Структура** :doc:`AdditionalInfoId <../../objects/552@/AdditionalInfoId>` — информационное поле факта хозяйственной жизни (1) [`ИнфПолФХЖ1 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000869>`_]
 
 :AcceptanceDate:
@@ -32,9 +32,6 @@ Act552BuyerContent
 
 :Signers\*:
   **Коллекция** :doc:`ExtendedSigner <../../objects/552@/ExtendedSigner>` — сведения о лице, подписавшем информацию заказчика в электронном виде [`Подписант <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6001011>`_]
-
-:Type:
-  **Строка** — тип документа, константа
 
 
 \*обязательные поля

@@ -59,9 +59,6 @@ Act552SellerContent
 :TransferInfo\*:
   **Коллекция** :doc:`Act552TransferInfo <../../objects/552@/Act552TransferInfo>` — содержание факта хозяйственной жизни (2) — сведения о передаче результатов работ [`СодФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995213>`_]
 
-:Type:
-  **Строка** — тип документа, константа
-
 :Works\*:
   **Коллекция** :doc:`Act552WorkDescription <../../objects/552@/Act552WorkDescription>` — описание выполненных работ [`ОписРабот <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995215>`_]
 

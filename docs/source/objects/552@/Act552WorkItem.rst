@@ -33,7 +33,7 @@ Act552WorkItem
   **Число (19.2)** — стоимость без учета НДС [`СтоимБезНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000957>`_]
 
 :TaxRate:
-  **Строка (1-35)** — налоговая ставка [`НалСт <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000958>`_]
+  **Строка (1-35)** — налоговая ставка [`НалСт <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000958>`_]. Принимает значение: 0% \| 10% \| 18% \| 20% \| 10/110 \| 18/118 \| 20/120 \| без НДС \| ИсчНалАг
 
 :UnitCode:
   **Строка (3-4)** — код единицы измерения [`ОКЕИ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000959>`__]
