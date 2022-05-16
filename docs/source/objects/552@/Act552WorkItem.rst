@@ -24,7 +24,7 @@ Act552WorkItem
   **Число (26.11)** — количество единиц товара [`КолТов <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000950>`_]. Обязателен при наличии `НаимРабот <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000947>`_
 
 :StructedAdditionalInfos:
-  **Коллекция** :doc:`AdditionalInfo <../../objects/552@/AdditionalInfo>` — информационное поле сведений о работе [`ИнфПолеОписРабот <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000954>`_]
+  **Коллекция** :doc:`AdditionalInfoItem <../../objects/552@/AdditionalInfoItem>` — информационное поле сведений о работе [`ИнфПолеОписРабот <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000954>`_]
 
 :Subtotal:
  **Число (19.2)** — стоимость с учетом НДС [`СтоимУчНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000955>`__]
@@ -44,5 +44,7 @@ Act552WorkItem
 :Vat:
   **Число (19.2)** — сумма НДС [`СумНДС <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000961>`_]
 
+:СлужебнаяИнформация:	
+  **ItemСлужебнаяИнформация** —  содержит ПрослеживаемыйТовар с типом Булево и ссылки на следующие записи в системе 1С: Номенклатура,Характеристика, СтранаПроисхождения, Серия, Упаковка, СтавкаНДС, ДокументОтгрузки, НомерГТД,ЕдиницаИзмерения
 
 \*обязательные поля

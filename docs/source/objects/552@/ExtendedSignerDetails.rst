@@ -5,21 +5,45 @@ ExtendedSignerDetails
 
 .. rubric:: Свойства
 
-:SignerPowers\*:
-  **Строка (=1)** — область полномочий [`ОблПолн <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000461>`_]. Возможные значения см. ниже.
+:FirstName\*:
+  **Строка (1-60)** — имя [`Имя <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6083056>`_]
 
-:SignerOrgPowersBase:
+:Inn\*:
+  **Строка (10-12)** — ИНН организации или индивидуального предпринимателя [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993565>`_] / [`ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5993564>`_]
+
+:JobTitle\*:
+  **Строка (1-128)** — должность [`Должность <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995648>`_]
+
+:OrganizationName\*:
+  **Строка (1-128)** — наименование организации [`НаимОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=6000930>`_]. Обязателен только для представителя юридического лица
+
+:OrganizationsPowerBase:
   **Строка (1-255)** — основание полномочий организации [`ОснПолнОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000464>`_]. Обязателен, если подписывает работник иной уполномоченной организации
 
-:SignerPowersBase\*:
+:Patronymic:
+  **Строка (1-60)** — отчество [`Отчество <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5637588>`_]
+
+:Powers\*:
+  **Строка (=1)** — область полномочий [`ОблПолн <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000461>`_]. Возможные значения см. ниже.
+
+:PowersBase\*:
   **Строка (1-255)** — основание полномочий подписанта [`ОснПолнПодп <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000463>`_]
 
-:SignerStatus\*:
-  **Строка (=1)** — статус [`Статус <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000462>`_]. Возможные значения см. ниже.
+:RegistrationCertificate:
+  **Строка (1-100)** — реквизиты свидетельства о государственной регистрации индивидуального предпринимателя [`СвГосРегИП <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995652>`_]
+
+:SignerInfo:
+  **Строка (1-255)** — иные сведения, идентифицирующие физическое лицо [`ИныеСвед <https://normativ.kontur.ru/document?moduleId=1&documentId=339634&rangeId=5995656>`_]
 
 :SignerType\*:
   **Строка** — тип подписанта. Возможные значения см. ниже.
-  
+
+:Status\*:
+  **Строка (=1)** — статус [`Статус <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000462>`_]. Возможные значения см. ниже.
+
+:Surname\*:
+  **Строка (1-60)** — фамилия [`Фамилия <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6083057>`_]
+
 
 \*обязательные поля
 
@@ -44,6 +68,7 @@ ExtendedSignerDetails
 ======================= ===========================================================================================================================
 Значение                Описание
 ======================= ===========================================================================================================================
+
 1                       работник организации — исполнителя работ
 2                       работник организации — составителя информации исполнителя
 3                       работник иной уполномоченной организации
