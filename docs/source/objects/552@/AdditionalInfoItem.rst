@@ -1,5 +1,5 @@
-AdditionalInfo
-===============
+AdditionalInfoItem
+===================
 
 Текстовая информация `(ТекстИнфТип) <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5996352>`_
 

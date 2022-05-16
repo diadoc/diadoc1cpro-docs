@@ -15,7 +15,7 @@ Act552TransferInfo
   **Строка (1-255)** — содержание операции [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000471>`_]
 
 :StructedAdditionalInfos:
-  **Коллекция** :doc:`AdditionalInfo <../../objects/552@/AdditionalInfo>` — информационное поле факта хозяйственной жизни (2) [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6081435>`_]
+  **Коллекция** :doc:`AdditionalInfoItem <../../objects/552@/AdditionalInfoItem>` — информационное поле факта хозяйственной жизни (2) [`ИнфПолФХЖ2 <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6081435>`_]
 
 :TransferDate:
   **Дата (ДД.ММ.ГГГГ)** — дата передачи результатов работ [`ДатаПер <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000838>`_]. Обязателен, если дата передачи результатов работ не совпадает с датой составления документа
