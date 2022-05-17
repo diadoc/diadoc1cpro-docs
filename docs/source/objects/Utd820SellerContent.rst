@@ -31,7 +31,7 @@
   **Строка (1-1000)** — составитель файла обмена счета-фактуры (информации продавца) [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239658>`_]
 
 :DocumentCreatorBase:
-  **Строка (1-120)** — основание, по которому экономический субъект является составителем файла обмена счета-фактуры (информации продавца) [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239659>`_]. Обязательно, если составитель информации продавца не является продавцом
+  **Строка (1-120)** — основание, по которому экономический субъект является составителем файла обмена счета-фактуры (информации продавца) [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239659>`_]. Обязателен, если составитель информации продавца не является продавцом
 
 :DocumentDate\*:
   **Дата (ДД.ММ.ГГГГ)** — дата составления (выписки) счета-фактуры [`ДатаСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239651>`_]
@@ -67,14 +67,14 @@
   **Коллекция** :doc:`PaymentDocumentInfo <../../objects/PaymentDocumentInfo>` — сведения о платежно-расчетном документе [`СвПРД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239669>`_]
 
 :RevisionDate:
-  **Дата (ДД.ММ.ГГГГ)** — дата исправления [`ДатаИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239656>`_]. Обязательна при отсутствии [`ДефДатаИспр <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=4427381>`_]
+  **Дата (ДД.ММ.ГГГГ)** — дата исправления [`ДатаИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239656>`_]. Обязателен при отсутствии [`ДефДатаИспр <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=4427381>`_]
 
 
 :RevisionNumber:
   **Число (3)** — номер исправления [`НомИспрСчФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239657>`_]. Обязателен при отсутствии [`ДефНомИспрСЧФ <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=4427384>`_]
 
 :SellerInfoCircumPublicProc:
-  :doc:`SellerInfoCircumPublicProc <../../objects/SellerInfoCircumPublicProc>` — информация продавца об обстоятельствах закупок для государственных и муниципальных нужд [`ИнфПродГосЗакКазн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239681>`_]. Обязательна при осуществлении закупок для обеспечения государственных и муниципальных нужд и для учета Федеральным казначейством денежных обязательств
+  :doc:`SellerInfoCircumPublicProc <../../objects/SellerInfoCircumPublicProc>` — информация продавца об обстоятельствах закупок для государственных и муниципальных нужд [`ИнфПродГосЗакКазн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239681>`_]. Обязателен при осуществлении закупок для обеспечения государственных и муниципальных нужд и для учета Федеральным казначейством денежных обязательств
   
 :Sellers\*:
   **Коллекция** :doc:`ExtendedOrganizationInfo <../../objects/ExtendedOrganizationInfo820>` — сведения о продавце [`СвПрод <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239664>`_]

@@ -37,7 +37,7 @@ BuyerInfoCircumPublicProc
   **Строка (=11)** — номер лицевого счета покупателя [`ЛицСчетПок <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239617>`_]
 
 :PriorityPayment:
-  **Строка (=1)** — очередность платежа [`ОчерПлат <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239628>`_]. Обязательна при заполнении [`ДатаОплПред <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239625>`_]
+  **Строка (=1)** — очередность платежа [`ОчерПлат <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239628>`_]. Обязателен при заполнении [`ДатаОплПред <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239625>`_]
 
 :ProcCode:
   **Строка (1-36)** — идентификационный код закупки [`ИдКодЗак <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239616>`_]

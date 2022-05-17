@@ -7,13 +7,13 @@
 .. rubric:: Свойства
 
 :AcceptanceDate:
-  **Дата (ДД.ММ.ГГГГ)** — дата принятия товаров (результатов выполненных работ), имущественных прав (подтверждения факта оказания услуг) [`ДатаПрин <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237499>`_]. Обязательна, если дата получения груза не совпадает с [`ДатаПер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=4427393>`_] информации продавца
+  **Дата (ДД.ММ.ГГГГ)** — дата принятия товаров (результатов выполненных работ), имущественных прав (подтверждения факта оказания услуг) [`ДатаПрин <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237499>`_]. Обязателен, если дата получения груза не совпадает с [`ДатаПер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=4427393>`_] информации продавца
 
 :AdditionalInfoId:
   :doc:`AdditionalInfoId <../../objects/AdditionalInfoId>` — информационное поле документа [`ИнфПолФХЖ4 <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237502>`_]
 
 :BuyerInfoCircumPublicProc:
-  :doc:`BuyerInfoCircumPublicProc <../../objects/BuyerInfoCircumPublicProc>` — информация покупателя об обстоятельствах закупок для государственных и муниципальных нужд [`ИнфПокГосЗакКазн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237507>`_]. Обязательна при осуществлении закупок для обеспечения государственных и муниципальных нужд и (или) для формирования сведений о денежном обязательстве Федеральным казначейством
+  :doc:`BuyerInfoCircumPublicProc <../../objects/BuyerInfoCircumPublicProc>` — информация покупателя об обстоятельствах закупок для государственных и муниципальных нужд [`ИнфПокГосЗакКазн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237507>`_]. Обязателен при осуществлении закупок для обеспечения государственных и муниципальных нужд и (или) для формирования сведений о денежном обязательстве Федеральным казначейством
 
 :ContentOperCode:
   :doc:`ContentOperCode <../../objects/ContentOperCode>` — код содержания операции [`КодСодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237508>`_]. Обязателен при отсутствии [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=4427400>`__]
@@ -31,7 +31,7 @@
   **Строка (1-255)** — вид операции [`ВидОперации <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237497>`_]
 
 :OperationContent:
-  **Строка (1-255)** — содержание операции (текст) [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237498>`_]. Обязательно при отсутствии [`КодСодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237508>`_]
+  **Строка (1-255)** — содержание операции (текст) [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237498>`_]. Обязателен при отсутствии [`КодСодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237508>`_]
 
 :OtherIssuer\*:
   :doc:`OtherIssuer <../../objects/OtherIssuer>` — иное лицо [`ИнЛицо <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=237501>`_]

@@ -19,7 +19,7 @@ ExtendedSignerDetails
   **Строка (1-1000)** — наименование организации [`НаимОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969519>`_]
 
 :OrganizationPowersBase:
-  **Строка (1-255)** — основание полномочий (доверия) организации [`ОснПолнОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=242188>`_].Обязательно для [`Статус <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969547>`_]=3
+  **Строка (1-255)** — основание полномочий (доверия) организации [`ОснПолнОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=242188>`_].Обязателен для [`Статус <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969547>`_]=3
 
 :Patronymic:
   **Строка (1-60)** — отчество [`Отчество <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2969508>`_]

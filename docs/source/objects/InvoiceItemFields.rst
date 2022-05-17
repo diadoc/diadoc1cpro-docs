@@ -29,7 +29,7 @@ InvoiceItemFields
   **Строка (3-4)** — код единицы измерения [`ОКЕИ_Тов <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611283>`_]
 
 :UnitName:
-  **Строка (1-255)** — наименование единицы измерения [`НаимЕдИзм <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611284>`_]. Обязательно при наличии [`ОКЕИ_ТовДо <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=4427277>`_]
+  **Строка (1-255)** — наименование единицы измерения [`НаимЕдИзм <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2611284>`_]. Обязателен при наличии [`ОКЕИ_ТовДо <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=4427277>`_]
 
 :Vat:
   **Число (19.2)** — сумма налога, предъявляемая покупателю [`СумНал <https://normativ.kontur.ru/document?moduleId=1&documentId=375857&rangeId=2968140>`_]

@@ -10,7 +10,7 @@ TransferBase
   **Строка (1-255)** — идентификатор документа-основания [`ИдентОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239796>`_]
 
 :DocumentDate:
-  **Дата (ДД.ММ.ГГГГ)** — дата документа-основания [`ДатаОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239818>`_]. Обязательна при [`НаимОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=4427438>`_], отличном от значения "Без документа-основания"
+  **Дата (ДД.ММ.ГГГГ)** — дата документа-основания [`ДатаОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239818>`_]. Обязателен при [`НаимОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=4427438>`_], отличном от значения "Без документа-основания"
 
 :DocumentInfo:
   **Строка (1-1000)** — дополнительные сведения [`ДопСвОсн <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239819>`_]

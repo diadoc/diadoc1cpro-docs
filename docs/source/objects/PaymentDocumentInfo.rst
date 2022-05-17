@@ -13,7 +13,7 @@ PaymentDocumentInfo
   **Строка (1-30)** — номер платежно-расчетного документа [`НомерПРД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239698>`_]
 
 :Total:
-  **Число (19.2)** — сумма платежно-расчетного документа [`СуммаПРД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239699>`_]. Обязательна для учета Федеральным казначейством денежных обязательств
+  **Число (19.2)** — сумма платежно-расчетного документа [`СуммаПРД <https://normativ.kontur.ru/document?moduleId=1&documentId=328588&rangeId=239699>`_]. Обязателен для учета Федеральным казначейством денежных обязательств
 
 
 \*обязательные поля
