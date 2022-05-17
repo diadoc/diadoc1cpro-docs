@@ -13,8 +13,8 @@ Cтруктуры для заполнения контента Акта о вы�
     Act552TransferInfo <objects/552@/Act552TransferInfo>
     Act552WorkDescription <objects/552@/Act552WorkDescription>
     Act552WorkItem <objects/552@/Act552WorkItem>
-    AdditionalInfo <objects/552@/AdditionalInfo>
     AdditionalInfoId <objects/552@/AdditionalInfoId>
+    AdditionalInfoItem <objects/552@/AdditionalInfoItem>
     Address <objects/552@/Address>
     ExtendedOrganizationInfo <objects/552@/ExtendedOrganizationInfo>
     ExtendedSigner <objects/552@/ExtendedSigner>
