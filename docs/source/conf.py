@@ -12,7 +12,7 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 exclude_patterns = []
 
-master_doc = 'index'
+master_doc = 'DocumentationRelocation'
 
 project = u'Диадок 1С'
 copyright = u'2018, Diadoc'
