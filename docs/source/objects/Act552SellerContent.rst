@@ -36,7 +36,7 @@ Act552SellerContent
   **Строка (1-255)** — идентификатор государственного контракта [`ИдГосКон <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995192>`_]
 
 :Grounds\*:
-  **Коллекция** :doc:`GroundInfo <../../objects/552@/GroundInfo>` — основание [`Основание <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995193>`_]
+  **Коллекция** :doc:`GroundInfo <../../objects/552@/GroundInfo>` — основание факта хозяйственной жизни [`Основание <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995193>`_]
 
 :OperationTitle:
   **Строка (1-2000)** — заголовок содержания операции [`ЗагСодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5995194>`_]

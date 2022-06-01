@@ -30,7 +30,7 @@ ExtendedOrganizationInfo
   **Строка (1-100)** — реквизиты свидетельства о государственной регистрации индивидуального предпринимателя [`СвГосРегИП <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998093>`_]
 
 :Inn\*:
-  **Строка (10-12)** — ИНН организации [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998095>`_ / `ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998094>`_]
+  **Строка (10-12)** — ИНН организации или индивидуального предпринимателя [`ИННЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998095>`_ / `ИННФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998094>`_]
 
 :Kpp:
   **Строка (=9)** — код причины постановки на учет организации [`КПП <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998096>`_]
@@ -48,13 +48,13 @@ ExtendedOrganizationInfo
   **Строка (1-1000)** — полное наименование организации [`НаимОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998105>`_]
 
 :OrganizationOrPersonInfo:
-  **Строка (1-255)** — иные сведения, идентифицирующие организацию [`ИныеСвед <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998106>`_]
+  **Строка (1-255)** — иные сведения, идентифицирующие физическое или юридическое лицо [`ИныеСвед <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998106>`_]
 
 :OrgType:
   **Строка** — тип организации. Возможные значения см. ниже.
 
 :Phone:
-  **Строка (1-255)** — номер контактного телефона, факс  [`Тлф <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998092>`_]
+  **Строка (1-255)** — номер контактного телефона или факс  [`Тлф <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998092>`_]
 
 
 \*обязательные поля
@@ -64,11 +64,11 @@ ExtendedOrganizationInfo
 .. |ExtendedOrganizationInfo_Torg2-Type| replace:: возможные значения
 .. _ExtendedOrganizationInfo_Torg2-Type:
 
-===================== ===========================================================================================================================
+===================== ========================================================================================================================================
 Значение              Описание
-===================== ===========================================================================================================================
+===================== ========================================================================================================================================
 ForeignEntity         Сведения об иностранной организации [`ИнОрг <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998110>`_]
 IndividualEntity      Сведения об индивидуальном предпринимателе [`СвИП <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998108>`_]
 LegalEntity           Сведения о российской организации [`СвЮЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998111>`_]
 PhysicalEntity        Сведения о физическом лице [`СвФЛ <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=5998107>`_]
-===================== ===========================================================================================================================
+===================== ========================================================================================================================================
