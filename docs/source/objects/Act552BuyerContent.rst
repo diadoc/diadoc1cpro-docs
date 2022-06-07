@@ -16,7 +16,7 @@ Act552BuyerContent
   **Дата (ДД.ММ.ГГГГ)** — дата получения вещи, изготовленной по договору подряда [`ДатаПол <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000859>`_]
 
 :CreatedThingInfo:
-  **Строка (1-1000)** — сведения о получении [`СвПол <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000860>`_]
+  **Строка (1-1000)** — сведения о получении вещи, изготовленной по договору подряда [`СвПол <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000860>`_]
 
 :DocumentCreator\*:
   **Строка (1-1000)** — cоставитель файла информации заказчика [`НаимЭконСубСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000863>`_]
@@ -25,7 +25,7 @@ Act552BuyerContent
   **Строка (1-120)** — основание, по которому организация является составителем информации заказчика [`ОснДоверОргСост <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000864>`_]. Обязателен, если составитель информации заказчика не является заказчиком
 
 :OperationContent:
-  **Строка (1-1000)** — содержание операции [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000867>`_]
+  **Строка (1-1000)** — содержание операции [`СодОпер <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000867>`_]. Указывается "Результаты работ (оказанных услуг) приняты без претензий" по умолчанию или иное
 
 :OperationType:
   **Строка (1-225)** — вид операции [`ВидОперации <https://normativ.kontur.ru/document?moduleId=1&documentId=339635&rangeId=6000868>`_]
