@@ -38,6 +38,8 @@
   ПравилаСопоставленияДокумента <func/pm/Pravila_Sopostavleniya_Dokumenta>
   ОтборСопоставленияНоменклатуры <func/pm/Otbor_Sopostavleniya_Nomenklatury>
   ЗаполнитьТаблицуСопоставленияНоменклатуры <func/pm/Zapolnit'_Tabliycu_Sopostavlenia_Nomenklatury>
+  НайтиСопоставлениеНоменклатуры <func/pm/Nayti_Sopostavleniye_Nomenklatury>
+  ДобавитьВариантСопоставленияНоменклатуры <func/pm/Dobavit_Variant_Sopostavleniya_Nomenklatury>
 
 Дополнение формы модуля
 -----------------------

@@ -7,3 +7,5 @@
 
   Пакет <objects/Пакет>
   Документ <objects/Документ>
+  НоменклатураИнформационнойБазы <objects/NomenklaturaInformatsionnoyBazy>
+  НоменклатураЭлектронногоДокумента <objects/NomenklaturaElektronnogoDokumenta>
