@@ -4,7 +4,7 @@
 
 ## Актуальная документация
 
-- [Для разработчиков 1С](https://developer.kontur.ru/doc/diadoc-um/index.html)
+- [Для разработчиков 1С](https://developer.kontur.ru/docs/diadoc_um/index.html)
 - [Для пользователей 1С](https://support.kontur.ru/diadoc-1s8x)
 
 ## Контакты
